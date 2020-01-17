@@ -1,0 +1,15 @@
+---
+layout:	post
+title:	"DmScoop"
+date:	2008-12-01
+---
+
+  DmScoop est un service d’envoi en masse de Direct message twitter à une liste de contact.
+
+Recherche graphique et développement d’une interface de présentation / inscription / login pour le moment. Projet suspendu faute de temps. Vous pouvez néanmoins aller voir ce que cela donne pour le moment, on en reparlera prochainement !
+
+[caption id=”attachment\_43" align=”alignnone” width=”300" caption=”Logo”]
+
+![logo-dmscoop](/img/0*LxhgxhKBHdCY7Nu1.png)[/caption]
+
+  
