@@ -1,0 +1,44 @@
+---
+layout:	post
+title:	"#GEN2019"
+date:	2019-09-23
+featured_image: '/img/1*KERhyppGRYt7NNrncvZwXg.png'
+---
+Ça faisait 5 ans que je n’étais pas retourné au [GEN](https://gen.grandestnumerique.org/), évènement incontournable de la Tech dans la région Grand Est. Peut être parce que trop éloigné ou juste que mon précédent job me tenait éloigné de tous ses super évènements, ne pouvant communiquer sur ce que l’on faisait de super chouette, Big4 oblige.
+
+Du coup, cette année avec [Fabrice Dewasmes](https://medium.com/u/3d0e2c6e2b7e) on est parti à l’aventure en terre messine pour découvrir et redécouvrir l’évènement. Déjà, le lieu. Le centre des congrès à 2 pas (littéralement) de la gare est un très bel écrin pour accueillir ce genre d’évènement.
+
+Le #GEN c’est un évènement qui mets en avant le savoir-faire des entreprises, rends accessible les avancées technologie et essaie de permettre à tout à chacun, entreprises, étudiants, collectivités, de trouver les clés pour comprendre mieux ce qui se dessine dans un futur proche. Du coup, avec ma casquette de quelqu’un qui baigne dans ses sujets tous les jours, j’ai eu un peu de mal à accrocher aux conférences de vulgarisations, mais j’ai pris grand plaisir sur les conférences inspirationelles, surtout celles de [Jamy Gourmaud](https://fr.wikipedia.org/wiki/Jamy_Gourmaud), [Marie-Cécile Godwin Paccard](https://medium.com/u/40d31271ad4e) et [Maxime VALETTE](https://medium.com/u/910f002db4d0).
+
+![](/img/1*fNDzqBJvbezjBFaK32-V7A.png)
+
+_Mes notes de la conférence de [Marie-Cécile Godwin Paccard](https://medium.com/u/40d31271ad4e)Je vous propose donc un petit retour sous forme de snack, 1 société, 1 initiative de transformation numérique et 1 rendez-vous intéressant._
+
+#### La société : [MIST Studio](http://miststudio.fr)
+
+![](/img/1*yBrIrLFE9GSD0Y2_5cFAhA.png)
+
+Créateur d’expérience en réalité (augmentée et) virtuelle, ils conçoivent des environnements 3D photoréalistes bluffant, notamment pour faire de la formation d’employés. [Fabrice Dewasmes](https://medium.com/u/3d0e2c6e2b7e) s’est prêté au jeu et a donc appris à monter … une pompe? Un moteur? Quelque chose avec un joint et des vis, mais en respectant une procédure standardisée et les règles de sécurité. L’important étant l’immersion fort réaliste pour des coûts très raisonnables. Ils ont la bonne idée de travailler à la fois la partie 3D, mais aussi l’équipement.
+
+#### L’initiative: [pole-emploi.io](http://pole-emploi.io/)
+
+Plateforme open-data du pôle emploi (en France donc), ils mettent à dispo des jeux de données temps réel sur les annonces, et permettent de référencer les services et produits qui les utilisent. Mais ce n’est que la 1ere brique, car l’initiative permet d’être :
+
+* incubé dans « la Fabrik » comme startup d’état (c’est comme ça qu’ils ont créé pôle-emploi connect, des générateurs de cv super sexy, etc.)
+* de venir pitcher son idée pour travailler avec pôle emploi (10'10'10' pitch, Q&A, délibération)
+* de tester son business modèle et son produit/service avec des usagers (demandeurs d’emploi, employé pôle-emploi…)
+* diffuser (là c’est plus de la pub/marketing, être invité sur des évènements…).
+
+![](/img/1*1zu699nWoA8cC9ipQkf92A.png)
+
+_Mes notes du mini-talk de pole-emploi.io et de la présentation de la startup d’État “Trait d’union”_
+
+#### L’évènement: L’Odyssée de l’Innovation le 2 dec. à Nancy
+
+L’idée est de faire du matchmaking entre des entrepreneurs, des startups, des entreprises prêtent à travailler en co-innovation avec des chercheurs qui ont fait des découvertes/travaillent sur des problématiques, mais qui ont du mal à trouver comment dépasser ce stade et imaginer une application produit/service. C’est organisé par la [CCI de Meurthe-et-Moselle](http://www.nancy.cci.fr/), en partenariat avec [BPI France](https://www.bpifrance.fr/) (qui à annoncé investir 800 millions € dans 2000 startups #deeptech d’ici 2023, 5 milliards € avec les effets de levier), le @CNRS, Grand E-Nov, Grand Nancy Innovation, l’institut Carnot, l’INRIA, l’INPI, SAYENS et plusieurs incubateurs de la région.
+
+![](/img/1*no4LWT4VYW-spJFk-HXp3Q.png)
+
+_La #deeptech c’est quoi ?_
+
+Alors on en pense quoi du #GEN 5 ans après ? Le salon a gagné en professionnalisme et en attractivité avec de beaux intervenants, de beaux sponsors et des sujets toujours d’actualité. J’ai pus renouer avec une bonne partie d’amis et de relations professionnelles du Grand Est ([Frederic Schnur](https://medium.com/u/e99fcf9f2621), [Stephane Tauziede](https://medium.com/u/95c08ab94aa9) …) et prendre contact pour proposer un track #opensource lors de la prochaine édition, mais aussi blockchain, machine learning, computer vision, chatbot et assistants vocaux, toutes ses merveilleuses choses qu’on fait chez [Smile](https://medium.com/smileinnovation).
