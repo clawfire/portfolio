@@ -8,8 +8,15 @@
   @extend .page-post;
 
   .post__subtitle {
-    margin-bottom: 48px;
     max-width: 556px;
+    margin-bottom: 24px;
+  }
+  .post__meta{
+      margin-bottom: 48px;
+      color: $text-light-color;
+      svg{
+          color: var(--accent);
+      }
   }
 
   .post__content {
@@ -35,7 +42,7 @@
   }
 
   @include mq(tabletp) {
-    .post__subtitle {
+    .post__meta {
       margin-bottom: 80px;
     }
   }
