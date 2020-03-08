@@ -1,21 +1,6 @@
 
-# Created by https://www.gitignore.io/api/osx,git,jekyll,textmate
-# Edit at https://www.gitignore.io/?templates=osx,git,jekyll,textmate
-
-### Git ###
-# Created by git for backups. To disable backups in Git:
-# $ git config --global mergetool.keepBackup false
-*.orig
-
-# Created by git when using merge tools for conflicts
-*.BACKUP.*
-*.BASE.*
-*.LOCAL.*
-*.REMOTE.*
-*_BACKUP_*.txt
-*_BASE_*.txt
-*_LOCAL_*.txt
-*_REMOTE_*.txt
+# Created by https://www.gitignore.io/api/osx,jekyll
+# Edit at https://www.gitignore.io/?templates=osx,jekyll
 
 ### Jekyll ###
 _site/
@@ -51,9 +36,24 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### TextMate ###
-*.tmproj
-*.tmproject
-tmtags
+# End of https://www.gitignore.io/api/osx,jekyll
 
-# End of https://www.gitignore.io/api/osx,git,jekyll,textmate
+# Created by https://www.gitignore.io/api/git
+# Edit at https://www.gitignore.io/?templates=git
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# End of https://www.gitignore.io/api/git
