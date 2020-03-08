@@ -2,6 +2,7 @@
 layout:	post
 title:	"Airport Utility 5.x sous Maverick & Yosemite"
 date:	2014-10-01
+featured_image: img/james-mckinven-tpuAo8gVs58-unsplash.jpg
 ---
 
 Alors qu’Apple nous a [supprimé depuis maintenant un bon moment](http://support.apple.com/kb/ht1731) la possibilité de nous servir de notre bonne vieille Airport Express 1ère & seconde génération pour faire un pont entre notre réseau Wi-Fi et le port Ethernet, il se trouve que je ne sois pas tout à fait de cet avis …

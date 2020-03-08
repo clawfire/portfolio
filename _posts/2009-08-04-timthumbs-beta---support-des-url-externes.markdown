@@ -8,6 +8,4 @@ date:	2009-08-04
 
 Après plusieures recherches j’ai donc trouvé une version béta du script qui autorise l’utilisation d’image distantes, depuis un certains nombres de sites d’hébergement d’image seulement (je n’ai aucune idée de pourquoi cette limitation). Si cela vous intéresse c’est par ici que cela se passe :
 
-[button-green url=”http://www.binarymoon.co.uk/2009/07/timthumb-beta-test/" target=”\_self” position=”left”] Télécharger [/button-green]
-
-  
+[Télécharger](http://www.binarymoon.co.uk/2009/07/timthumb-beta-test/)
