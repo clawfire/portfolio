@@ -18,6 +18,4 @@ Je me pose cependant la question de savoir si le fait que ce soit une société 
 
 Alors certes vous allez me dire que le dépôts de plugin existe pour wordpress, sauf que on ne peut pas vendre de plugin. Et même si l’on pouvais le faire, cela nécessiterais un gros travail de redesign pour rendre le dépôt de thème et plugins moins austère. Pour ma part je trouve que WP-Plugins est un peu too much au niveau design, et qu’il gagnerais à revoir un peu sa charte graphique, mais il à au moins le mérite de proposer une solution à un problème existant et le temps nous dira si ce sera un simple site de plus sur le web, ou si cela prendra et qu’il deviendra une vrai plateforme de vente, un vrai appstore . En attendant je vous invite à vous y rendre, [à visiter](http://wpplugins.com/) et vous faire un avis par vous même et de laisser vos impression ici , en commentaire.
 
-[button-green url=”http://wpplugins.com/" target=”\_new” position=”left”] Visiter WP Plugin [/button-green]
-
-  
+[Visiter WP Plugin](http://wpplugins.com/)

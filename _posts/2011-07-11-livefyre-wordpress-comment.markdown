@@ -27,8 +27,6 @@ Dans l’ordre des priorités
 
 Si vous souhaitez contribuer ou simplement suivre le projet :
 
-[button-white url=”https://github.com/clawfire/livefyre-customdomain-wordpress-plugin" target=”\_blanck” position=”left”] Voir sur Github [/button-white]
+[Voir sur Github](https://github.com/clawfire/livefyre-customdomain-wordpress-plugin)
 
 Attention, la branche principale corresponds à la branche de dev, il faudra attendre des tag de version pour avoir une version fonctionnelle.
-
-  
