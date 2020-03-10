@@ -57,3 +57,6 @@ Temporary Items
 *_REMOTE_*.txt
 
 # End of https://www.gitignore.io/api/git
+
+# Local Netlify folder
+.netlify
