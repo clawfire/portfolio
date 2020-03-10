@@ -34,7 +34,7 @@ Using voice, and now our mind, is getting more and more natural. Because it lowe
 ## It had impact on transportation, at large
 
 {% include post-components/video.html
-	url = "http://www.youtube.com/watch?v=gfWjsKsEry0"
+	url = "https:////www.youtube.com/watch?v=gfWjsKsEry0"
 	full_width = true
 %}
 
@@ -45,7 +45,7 @@ A lot of startups are already runing business in dedicated area at a scale of a 
 Ground drone delivery is also getting more traction with well established company such FedEx or Amazon Prime experimenting in real life their technology. Rakuten, on their side, seems to have elevated the game by moving lockers and not just individual delivery.
 
 {% include post-components/video.html
-	url = "http://www.youtube.com/watch?v=WHWciIxNK2c&t=19"
+	url = "https:////www.youtube.com/watch?v=WHWciIxNK2c&t=19"
 	full_width = true
 %}
 
