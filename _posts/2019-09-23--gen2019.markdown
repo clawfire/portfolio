@@ -1,7 +1,7 @@
 ---
-layout:	post
-title:	"#GEN2019"
-date:	2019-09-23
+layout: post
+title: "#GEN2019"
+date: 2019-09-23
 featured_image: '/img/1*KERhyppGRYt7NNrncvZwXg.png'
 ---
 Ça faisait 5 ans que je n’étais pas retourné au [GEN](https://gen.grandestnumerique.org/), évènement incontournable de la Tech dans la région Grand Est. Peut être parce que trop éloigné ou juste que mon précédent job me tenait éloigné de tous ses super évènements, ne pouvant communiquer sur ce que l’on faisait de super chouette, Big4 oblige.
