@@ -16,7 +16,7 @@ menu_settings:
 footer_settings:
   logo_image:
   logo_width: 100
-  tagline: Baked with ♥️ in Luxembourg, thanks to Jekyll & Netlify
+  tagline: 'Baked with <span style="color: #cf4b35"><i class="fad fa-heart"></i></span> in Luxembourg, thanks to Jekyll & Netlify'
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
