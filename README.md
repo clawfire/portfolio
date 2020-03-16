@@ -1,23 +1,6 @@
-# Made by JekyllThemes.io – Instructions
+[![Netlify Status](https://api.netlify.com/api/v1/badges/475d9066-7ec4-4ac4-a1da-b80a61a9daa3/deploy-status)](https://app.netlify.com/sites/hopeful-kirch-c9adc4/deploys)
 
-If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers.
 
----
-
-## Getting started
-
-Copy the theme files to your website directory.
-
-To run the theme locally, navigate to the theme directory in your terminal and run `bundle install` to install the theme's dependencies. Then run `jekyll serve` to start the Jekyll server.
-
----
-
-## Jekyll basics
-
-If you're not familiar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), and [creating pages](https://jekyllrb.com/docs/pages/).
-
----
 
 ## Customizing the theme
 
