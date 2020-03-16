@@ -59,3 +59,19 @@ plugins:
 
 paginate: 7
 paginate_path: "/blog/page-:num/"
+
+exclude:
+    - .lfsconfig
+    - .gitignore
+    - .gitattributes
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules/
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+timezone: Europe/Luxembourg
