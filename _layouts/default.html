@@ -7,7 +7,7 @@
 
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-	{{ site.data.settings.basic_settings.site_title }}
+	{{ site.data.settings.basic_settings.site_title | strip_html }}
 
 	Made Theme by https://jekyllthemes.io
 	Premium + free Jekyll themes for your blog or website.
@@ -20,20 +20,20 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
-	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} –
-		{{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
+	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title | strip_html }} –
+		{{ page.title | strip_html}}{% else %}{{ page.title | strip_html }} – {{ site.data.settings.basic_settings.site_title | strip_html }}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title"
-		content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
-	<meta name="twitter:description" content="{{ page.description }}">
+		content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title | strip_html }} – {{ page.title | strip_html }}{% else %}{{ page.title | strip_html }} – {{ site.data.settings.basic_settings.site_title | strip_html}}{% endif %}">
+	<meta name="twitter:description" content="{{ page.description | strip_html}}">
 	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title"
-		content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
+		content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title | strip_html }} – {{ page.title | strip_html}}{% else %}{{ page.title | strip_html }} – {{ site.data.settings.basic_settings.site_title | strip_html }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description }}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
 
@@ -102,7 +102,7 @@
 
 	<div class="page">
 		<div class="page__content"
-			data-page-title="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
+			data-page-title="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title | strip_html }} – {{ page.title | strip_html}}{% else %}{{ page.title | strip_html}} – {{ site.data.settings.basic_settings.site_title | strip_html}}{% endif %}">
 
 			{% include component__contact.html %}
 
