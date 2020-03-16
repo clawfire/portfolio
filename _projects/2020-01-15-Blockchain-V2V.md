@@ -1,7 +1,7 @@
 ---
 title: 'Blockchain for Vehicule 2 Anything connectivity'
 subtitle: 'Use case: how using blockchain as an enabler on automotive market'
-date: 2019-06-18 00:00:00
+date: 2019-06-18
 skills:
     - product design
 techs:
