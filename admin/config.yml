@@ -1,0 +1,100 @@
+backend:
+  name:                 git-gateway
+  branch:               master
+
+media_folder:           "img"
+
+collection:
+  - name:               "post"
+    label:              "Posts"
+    label_singular:     "Post"
+    folder:             "_posts"
+    sort:               "date:desc"
+    create:             true
+    slug:               "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label:          "Layout"
+        name:           "layout"
+        widget:         "hidden"
+        default:        "post"
+      - label:          "Featured image"
+        name:           "featured_image"
+        widget:         "image"
+        required:       false
+        allow_multiple: false
+      - label:          "Title"
+        name:           "title"
+        widget:         "string"
+        tagname:        "h1"
+      - label:          "Excerpt"
+        name:           "description"
+        widget:         "markdown"
+        required:       false
+      - label:          "Body"
+        name:           "body"
+        widget:         "markdown"
+    meta:
+      - label:          "Published"
+        name:           "published"
+        widget:         "boolean"
+        default:        true
+      - label:          "Publish Date"
+        name:           "date"
+        widget:         "date"
+        format:         "YYYY-MM-DD"
+  - name:               "project"
+    label:              "Projects"
+    label_singular:     "Project"
+    folder:             "_projects"
+    sort:               "date:desc"
+    create:             true
+    slug:               "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fiels:
+      - label:          "Featured image"
+        name:           "featured_image"
+        widget:         "image"
+        required:       false
+        allow_multiple: false
+      - label: "Image Gallery"
+        name: "gallery_images"
+        widget: "list"
+        field:
+          - label: Image
+            name: image
+            widget: image
+            allow_multiple: false
+      - label:          "Title"
+        name:           "title"
+        widget:         "string"
+        tagname:        "h1"
+      - label:          "SubTitle"
+        name:           "subtitle"
+        widget:         "text"
+      - label:          "Excerpt"
+        name:           "description"
+        widget:         "markdown"
+        required:       false
+      - label:          "Body"
+        name:           "body"
+        widget:         "markdown"
+    meta:
+      - label:          "Published"
+        name:           "published"
+        widget:         "boolean"
+        default:        true
+      - label:          "Publish Date"
+        name:           "date"
+        widget:         "date"
+        format:         "YYYY-MM-DD"
+      - label: "Skills"
+        name: "skills"
+        widget: "list"
+      - label: "Technologies"
+        name: "techs"
+        widget: "list"
+      - label: "Industries"
+        name: "industry"
+        widget: "list"
+      - label: "Color Accent"
+        name: "accent_color"
+        widget: "text"
