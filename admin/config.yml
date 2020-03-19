@@ -4,9 +4,9 @@ backend:
 
 media_folder:               "img"
 
-collection:
+collections:
   - name:                   "pages"
-    lable:                  "Pages"
+    label:                  "Pages"
     label_singular:         "Page"
     folder:                 "_pages"
     create:                 true
@@ -75,7 +75,7 @@ collection:
     sort:                   "date:desc"
     create:                 true
     slug:                   "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fiels:
+    fields:
       - label:              "Featured image"
         name:               "featured_image"
         widget:             "image"
@@ -84,7 +84,7 @@ collection:
       - label:              "Image Gallery"
         name:               "gallery_images"
         widget:             "list"
-        field:
+        fields:
           - label:          Image
             name:           image
             widget:         image
