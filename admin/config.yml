@@ -2,6 +2,7 @@ backend:
   name:                     github
   repo:                     clawfire/portfolio
   use_graphql:              true
+  site_url:                 "https://thibaultmilan.com"
 
 media_folder:               "img"
 
@@ -39,6 +40,7 @@ collections:
     sort:                   "date:desc"
     extensions:             "markdown"
     create:                 true
+    summary:                "{{year}}.{{month}}.{{day}} {{title}}"
     slug:                   "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label:              "Layout"
@@ -76,6 +78,7 @@ collections:
     folder:                 "_projects"
     sort:                   "date:desc"
     create:                 true
+    summary:                "{{year}}.{{month}}.{{day}} {{title}}"
     slug:                   "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label:              "Featured image"
