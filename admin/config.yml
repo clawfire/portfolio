@@ -37,6 +37,7 @@ collections:
     label_singular:         "Post"
     folder:                 "_posts"
     sort:                   "date:desc"
+    extensions:             "markdown"
     create:                 true
     slug:                   "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
