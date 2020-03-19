@@ -1,6 +1,7 @@
 backend:
-  name:                     git-gateway
-  branch:                   master
+  name:                     github
+  repo:                     clawfire/portfolio
+  use_graphql:              true
 
 media_folder:               "img"
 
