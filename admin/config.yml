@@ -60,10 +60,6 @@ collections:
         name:               "description"
         widget:             "markdown"
         required:           false
-      - label:              "Body"
-        name:               "body"
-        widget:             "markdown"
-    meta:
       - label:              "Published"
         name:               "published"
         widget:             "boolean"
@@ -72,6 +68,9 @@ collections:
         name:               "date"
         widget:             "date"
         format:             "YYYY-MM-DD"
+      - label:              "Body"
+        name:               "body"
+        widget:             "markdown"
   - name:                   "project"
     label:                  "Projects"
     label_singular:         "Project"
@@ -105,10 +104,6 @@ collections:
         name:               "description"
         widget:             "markdown"
         required:           false
-      - label:              "Body"
-        name:               "body"
-        widget:             "markdown"
-    meta:
       - label:              "Published"
         name:               "published"
         widget:             "boolean"
@@ -129,3 +124,6 @@ collections:
       - label:              "Color Accent"
         name:               "accent_color"
         widget:             "text"
+      - label:              "Body"
+        name:               "body"
+        widget:             "markdown"
