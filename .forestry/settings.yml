@@ -9,6 +9,8 @@ sections:
   label: Projects
   create: documents
   match: "**/*"
+  templates:
+  - portfolio
 - type: jekyll-posts
   label: Posts
   create: documents
