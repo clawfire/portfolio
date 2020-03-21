@@ -4,7 +4,25 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: text
   name: subtitle
-  label: subtitle
+  label: Subtitle
+  config:
+    required: true
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
