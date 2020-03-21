@@ -24,6 +24,10 @@ sections:
   exclude: ".*"
   templates:
   - pages
+- type: document
+  path: _data/settings.yml
+  label: Settings
+  match: "**/*"
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''
