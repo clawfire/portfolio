@@ -28,5 +28,3 @@ fields:
   type: boolean
   label: Published
   default: true
-pages:
-- _posts/rebuilding-my-portfolio-serie.md
