@@ -10,20 +10,29 @@ fields:
   config:
     required: true
   default: post
+- type: file
+  name: featured_image
+  label: Featured Image
 - type: text
   name: title
   label: Title
   config:
     required: true
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Exerpt
 - type: datetime
   name: date
   label: Date
   config:
     required: true
   default: now
-- type: file
-  name: featured_image
-  label: Featured Image
 - name: published
   type: boolean
   label: Published
