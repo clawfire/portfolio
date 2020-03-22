@@ -4,6 +4,8 @@ date: 2020-03-21T13:19:49.000+00:00
 title: Rebuilding my Portfolio Serie
 featured_image: "/img/2020/03/joshua-aragon-BMnhuwFYr7w-unsplash.jpg"
 published: true
+description: 'I''ve decided to migrate from Medium to a JAMStack. This is the introduction
+  of a posts serie about this journey. '
 
 ---
 A couple of years ago, I signed up on Medium.com, joining the promised of a platform focused on content and promoting the writers. The promise is still strongly held I think, but a lot of issues surface as the company struggle with securing a recurring income. They introduce a lot of annoying modal boxes, limiting users to 3 stories per days (which I find fair, to be honest), etc. 
