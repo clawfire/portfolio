@@ -4,232 +4,262 @@ hide_body: true
 fields:
 - type: field_group
   name: basic_settings
-  label: basic_settings
+  label: Basic
   fields:
   - type: text
     name: site_title
-    label: site_title
+    label: Site Title
   - type: file
     name: favicon_image
-    label: favicon_image
+    label: Favicon
 - type: field_group
   name: header_settings
-  label: header_settings
+  label: Header
   fields:
-  - type: text
-    name: logo_image
-    label: logo_image
+  - name: logo_image
+    type: file
+    config:
+      maxSize: 250
+    label: Logo
   - type: number
     name: logo_width
-    label: logo_width
+    label: Width
 - type: field_group
   name: menu_settings
-  label: menu_settings
+  label: Menu
   fields:
   - type: field_group_list
     name: menu_items
-    label: menu_items
     fields:
     - type: text
       name: title
-      label: title
+      label: Title
     - type: text
       name: url
-      label: url
+      label: URL
+    label: Élément
 - type: field_group
   name: footer_settings
-  label: footer_settings
+  label: Footer
   fields:
-  - type: text
-    name: logo_image
-    label: logo_image
+  - name: logo_image
+    type: file
+    config:
+      maxSize: 250
+    label: Logo
   - type: number
     name: logo_width
-    label: logo_width
+    label: Width
   - type: textarea
     name: tagline
-    label: tagline
+    label: Tagline
 - type: field_group
   name: hero_settings
-  label: hero_settings
+  label: Hero Settings
   fields:
   - type: file
     name: background_image
-    label: background_image
+    label: Background Image
 - type: field_group
   name: post_settings
-  label: post_settings
+  label: Post Settings
   fields:
   - type: number
     name: grid_spacing
-    label: grid_spacing
+    label: Grid Spacing
 - type: field_group
   name: contact_settings
-  label: contact_settings
+  label: Contact
   fields:
   - type: text
     name: email_address
-    label: email_address
+    label: Email
+    config:
+      required: true
   - type: text
     name: form_action
     label: form_action
   - type: text
     name: confirmation_url
-    label: confirmation_url
+    label: URL de confirmation
   - type: text
     name: email_subject
-    label: email_subject
+    label: Sujet de l'Email
   - type: text
     name: send_button_text
-    label: send_button_text
+    label: Texte du bouton d'envoi
 - type: field_group
   name: social_settings
-  label: social_settings
+  label: Social
   fields:
   - type: text
     name: facebook_url
-    label: facebook_url
+    label: Facebook URL
   - type: text
     name: twitter_url
-    label: twitter_url
+    label: Twitter URL
   - type: text
     name: instagram_url
-    label: instagram_url
+    label: Instagram URL
   - type: text
     name: snapchat_url
-    label: snapchat_url
+    label: Snapchat URL
   - type: text
     name: youtube_url
-    label: youtube_url
+    label: Youtube URL
   - type: text
     name: google-plus_url
-    label: google-plus_url
+    label: Google+ URL
   - type: text
     name: vimeo_url
-    label: vimeo_url
+    label: Vimeo URL
   - type: text
     name: pinterest_url
-    label: pinterest_url
+    label: Pinterest URL
   - type: text
     name: medium_url
-    label: medium_url
+    label: Medium URL
   - type: text
     name: quora_url
-    label: quora_url
+    label: Quora URL
   - type: text
     name: amazon_url
-    label: amazon_url
+    label: Amazon URL
   - type: text
     name: apple_url
-    label: apple_url
+    label: Apple URL
   - type: text
     name: android_url
-    label: android_url
+    label: Android URL
   - type: text
     name: tumblr_url
-    label: tumblr_url
+    label: Tumblr URL
   - type: text
     name: dribbble_url
-    label: dribbble_url
+    label: Dribble URL
   - type: text
     name: behance_url
-    label: behance_url
+    label: Behance URL
   - type: text
     name: deviantart_url
-    label: deviantart_url
+    label: Devianart URL
   - type: text
     name: github_url
-    label: github_url
+    label: Github URL
   - type: text
     name: reddit_url
-    label: reddit_url
+    label: Reddit URL
   - type: text
     name: flickr_url
-    label: flickr_url
+    label: Flickr URL
   - type: text
     name: etsy_url
-    label: etsy_url
+    label: Etsy URL
   - type: text
     name: kickstarter_url
-    label: kickstarter_url
+    label: Kickstarter URL
   - type: text
     name: soundcloud_url
-    label: soundcloud_url
+    label: Soundcloud URL
   - type: text
     name: spotify_url
-    label: spotify_url
+    label: Spotify URL
   - type: text
     name: bandcamp_url
-    label: bandcamp_url
+    label: Bandcamp URL
   - type: text
     name: linkedin_url
-    label: linkedin_url
+    label: Linkedin URL
 - type: field_group
   name: color_settings
-  label: color_settings
+  label: Color
   fields:
-  - type: text
-    name: background_color
-    label: background_color
-  - type: text
-    name: background_alt_color
-    label: background_alt_color
-  - type: text
-    name: text_dark_color
-    label: text_dark_color
-  - type: text
-    name: text_medium_color
-    label: text_medium_color
-  - type: text
-    name: text_light_color
-    label: text_light_color
-  - type: text
-    name: accent_color
-    label: accent_color
-  - type: text
-    name: border_color
-    label: border_color
-  - type: text
-    name: error_color
-    label: error_color
+  - name: background_color
+    type: color
+    label: Background Color
+    config:
+      required: true
+      color_format: Hex
+  - name: background_alt_color
+    type: color
+    label: Background Alt Color
+    config:
+      required: true
+      color_format: Hex
+  - name: text_dark_color
+    type: color
+    label: Text Dark Color
+    config:
+      required: true
+      color_format: Hex
+  - name: text_medium_color
+    type: color
+    label: Text Medium Color
+    config:
+      required: true
+      color_format: Hex
+  - name: text_light_color
+    type: color
+    label: Text Light Color
+    config:
+      required: true
+      color_format: Hex
+  - name: accent_color
+    type: color
+    config:
+      required: true
+      color_format: Hex
+    label: Accent Color
+  - name: border_color
+    type: color
+    label: Border Color
+    config:
+      required: true
+      color_format: Hex
+  - name: error_color
+    type: color
+    label: Error Color
+    config:
+      required: true
+      color_format: Hex
 - type: field_group
   name: font_settings
-  label: font_settings
+  label: Font
   fields:
   - type: textarea
     name: font_embed
-    label: font_embed
+    label: Embed Font
   - type: text
     name: title_font
-    label: title_font
+    label: Title Font
   - type: text
     name: body_font
-    label: body_font
+    label: Body Font
   - type: number
     name: regular_weight
-    label: regular_weight
+    label: Regular Weigth
   - type: number
     name: bold_weight
-    label: bold_weight
+    label: Bold Weight
   - type: field_group
     name: site_title
-    label: site_title
+    label: Site Title
     fields:
     - type: number
       name: small_size
-      label: small_size
+      label: Small Size
     - type: number
       name: medium_size
-      label: medium_size
+      label: Medium Size
     - type: number
       name: large_size
-      label: large_size
+      label: Large Size
     - type: number
       name: weight
-      label: weight
+      label: Weight
     - type: number
       name: letter_spacing
-      label: letter_spacing
+      label: Letter Spacing
   - type: field_group
     name: menu
     label: menu
@@ -548,3 +578,5 @@ fields:
   - type: text
     name: footer_js
     label: footer_js
+pages:
+- _data/settings.yml
