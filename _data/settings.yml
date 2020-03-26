@@ -5,12 +5,7 @@ basic_settings:
 header_settings:
   logo_image: ''
   logo_width: 100
-menu_settings:
-  menu_items:
-  - title: Projects
-    url: "/"
-  - title: Blog
-    url: "/blog/"
+
 footer_settings:
   logo_image: ''
   logo_width: 100
@@ -80,7 +75,7 @@ font_settings:
     medium_size: 15
     large_size: 17
     weight: 600
-    letter_spacing: 
+    letter_spacing:
   h1:
     size: 64
     size_small: 42
@@ -117,14 +112,14 @@ font_settings:
     medium_size: 20
     large_size: 20
     weight: 700
-    letter_spacing: 
+    letter_spacing:
     line_height: 1.6
   h6:
     small_size: 17
     medium_size: 20
     large_size: 20
     weight: 700
-    letter_spacing: 
+    letter_spacing:
     line_height: 1.6
   subtitle:
     size: 22
@@ -140,13 +135,13 @@ font_settings:
     size_small: 17
     weight: 400
     letter_spacing: 0.04
-    letter_spacing_small: 
+    letter_spacing_small:
     line_height: 28
   p_small:
     size: 16
     size_small: 15
     weight: 400
-    letter_spacing: 
+    letter_spacing:
     line_height: 24
   label:
     size: 14
