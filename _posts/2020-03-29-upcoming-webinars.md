@@ -17,4 +17,7 @@ In this spirit, I'm giving four 15 min lightning talk: one about AI and 3 about 
 
 If you're interested, just heads up on the [registration page](https://www.smile.eu/fr/groupeevenements/quick-talk-tech-smile) to secure your seat, it's 💯% free!
 
-![](/img/2020/03/1.png)![](/img/2020/03/2.png)![](/img/2020/03/3.png)![](/img/2020/03/4.png)
+![](/img/2020/03/1.png)
+![](/img/2020/03/2.png)
+![](/img/2020/03/3.png)
+![](/img/2020/03/4.png)
