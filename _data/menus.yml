@@ -1,5 +1,8 @@
+---
 header:
-  - url: /
-    title: "Projects"
-  - url: /blog/
-    title: "Blog"
+- url: "/blog/"
+  title: Blog
+  weight: 1
+- url: "/"
+  title: Projects
+  weight: 2
