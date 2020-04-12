@@ -8,9 +8,9 @@ published: false
 ---
 Started a little bit before joining Smile, I started doing some curation on my tech watch online and started to publish it [on GetRevue](https://www.getrevue.co/profile/thibault). The topics could be from nerdy stuff to very marketing elements. And I tried to update the people with the stuff happening in my pro / personal life.
 
-When I got my new position of _Innovation Evangelist_ at Smile, and having the opportunity to design my job, I integrated this tech watch to my work. Starting with only internal newsletter + posting on [Innovation's Squad Medium](https://medium.com/smileinnovation). 
+When I got my new position of _Innovation Evangelist_ at Smile, and having the opportunity to design my job, I integrated this tech watch to my work. Starting with only internal newsletter + posting on [Innovation's Squad Medium](https://medium.com/smileinnovation). The rhythm increased significantly and reach 2 publication per month. We opened a dedicated list on our Mailchimp after 6 months and you can [subscribe to my Techwatch at Smile](http://eepurl.com/dM4NAM) for free. 
 
-[Subscribe to my Techwatch at Smile](http://eepurl.com/dM4NAM)
+If you want, you can get [the past issue list of what I published](https://us18.campaign-archive.com/home/?u=4d3484a4e4a58a42c2bc028f5&id=7db7ed73c3) on Mailchimp for Smile but, as I said, [it's available on Medium](https://medium.com/smileinnovation) too. 
 
     <!-- Begin Mailchimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
