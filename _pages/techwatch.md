@@ -6,7 +6,9 @@ featured_image: ''
 published: false
 
 ---
-Started a little bit before joining Smile, I started doing some curation on my tech watch online and started to publish it [on GetRevue](https://www.getrevue.co/profile/thibault). The topics could be from nerdy stuff to very marketing elements. And I tried to update the people with the stuff happening in my pro / personal life. 
+Started a little bit before joining Smile, I started doing some curation on my tech watch online and started to publish it [on GetRevue](https://www.getrevue.co/profile/thibault). The topics could be from nerdy stuff to very marketing elements. And I tried to update the people with the stuff happening in my pro / personal life.
+
+When I got my new position of _Innovation Evangelist_ at Smile, and having the opportunity to design my job, I integrated this tech watch to my work. Starting with only internal newsletter + posting on [Innovation's Squad Medium](https://medium.com/smileinnovation). 
 
 [Subscribe to my Techwatch at Smile](http://eepurl.com/dM4NAM)
 
