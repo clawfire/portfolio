@@ -3,6 +3,9 @@ title: Techwatch
 subtitle: My tech watch delivered right into your inbox, every 2 weeks or so.
 description: ''
 featured_image: "/img/2020/04/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg"
+menu:
+  header:
+    weight: 3
 
 ---
 Started a little bit before joining Smile, I started doing some curation on my tech watch online and started to publish it [on GetRevue](https://www.getrevue.co/profile/thibault). The topics could be from nerdy stuff to very marketing elements. And I tried to update the people with the stuff happening in my pro / personal life.
