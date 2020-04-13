@@ -1,7 +1,6 @@
 ---
-date: 2019-12-18 13:28:31 +0100
+date: 2019-12-18T12:28:31.000+00:00
 accent_color: rgb(4, 101, 100)
-published: true
 title: Innovation Morning
 subtitle: Matinale de l'Innovation
 skills:
@@ -12,10 +11,11 @@ industry: []
 description: ''
 featured_image: "/img/2020/04/20191210_093702.jpg"
 gallery_images:
+- "/img/2020/04/20191210_123325-1.jpg"
 - "/img/2020/04/20191210_093702.jpg"
-- "/img/2020/04/20191210_123325.jpg"
 - "/img/2020/04/20191210_093321.jpg"
 - "/img/2020/04/IMG_1059.jpg"
+published: true
 
 ---
 Working as Innovation Evangelist at Smile, it's not always easy to get in touch with our customers or leads, let's say all our business relations, to talk about innovation topics such Blockchain, A.I., computer vision, or new methodologies such as Lego® Serious Play®. 
