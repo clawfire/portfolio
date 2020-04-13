@@ -1,6 +1,6 @@
 ---
 date: 2019-12-18T12:28:31.000+00:00
-accent_color: rgb(4, 101, 100)
+accent_color: rgb(59, 128, 255)
 title: Innovation Morning
 subtitle: Matinale de l'Innovation
 skills:
