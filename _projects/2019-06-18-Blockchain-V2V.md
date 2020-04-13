@@ -9,13 +9,13 @@ techs:
 industry:
     - Automotive
 description: In 2016, 1/5 cars sold worldwidecould be plugged to internet. By 2020, it will be 3/4 of them.
-featured_image: blockchain-V2V-enabler.png
+featured_image: /images/projects/blockchain-V2V-enabler.png
 accent_color: rgba(4, 101, 100, 1.00)
 gallery_images:
-  - Blockchain Cap'Tronic.png
-  - Blockchain Cap'Tronic (1).png
-  - Blockchain Cap'Tronic (2).png
-  - Blockchain Cap'Tronic (3).png
+  - /images/projects/Blockchain Cap'Tronic.png
+  - /images/projects/Blockchain Cap'Tronic (1).png
+  - /images/projects/Blockchain Cap'Tronic (2).png
+  - /images/projects/Blockchain Cap'Tronic (3).png
 ---
 In 2019, I was asked to develop use cases around blockchain for the [Cap'Tronic](https://www.captronic.fr/) program. Funded by CEA and Bpifrance, Cap'Tronic organise workshops around new technology where specialists comes and share with the company members insight from new tech, what can be done and ask Q&A around their respective topics. I was invited to talk about **blockchain** technology following my use case developped for EDF and the Région Pays de la Loire for E.V. charging in shared space such as residences.
 
