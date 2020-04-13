@@ -17,7 +17,7 @@ layout: default
                 {%- if page.skills -%}<i class="fad fa-hat-wizard"></i> {{page.skills | array_to_sentence_string}}&nbsp;{%- endif -%}
             </p>
 		</div>
-		<img src="{{ page.featured_image | relative_url}}" class="post__featured-image">
+		<img src="{{ page.featured_image | relative_url | append: '?nf_resize=smartcrop&w=1200&h=630'}}" class="post__featured-image">
 	</header>
 
 	<section class="post-full">
