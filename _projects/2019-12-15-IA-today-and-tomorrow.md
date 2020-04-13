@@ -17,13 +17,13 @@ industry:
     - Environment
     - Defence
 description: During a bi-monthly talk I give accross Europe for our clients, I try to share a snapshot of what's the state of the art A.I can provide to Humanity at that moment, and what's the very next iteration coming.
-featured_image: Qu'attendre de l'IA aujourd'hui et demain 4.jpg
+featured_image: /images/projects/Qu'attendre de l'IA aujourd'hui et demain 4.jpg
 accent_color: rgba(4, 101, 100, 1.00)
 gallery_images:
-  - Qu'attendre de l'IA aujourd'hui et demain.jpg
-  - Qu'attendre de l'IA aujourd'hui et demain 2.jpg
-  - Qu'attendre de l'IA aujourd'hui et demain 3.jpg
-  - Qu'attendre de l'IA aujourd'hui et demain 4.jpg
+  - /images/projects/Qu'attendre de l'IA aujourd'hui et demain.jpg
+  - /images/projects/Qu'attendre de l'IA aujourd'hui et demain 2.jpg
+  - /images/projects/Qu'attendre de l'IA aujourd'hui et demain 3.jpg
+  - /images/projects/Qu'attendre de l'IA aujourd'hui et demain 4.jpg
 ---
 ## It change the way we interact with digital content
 
