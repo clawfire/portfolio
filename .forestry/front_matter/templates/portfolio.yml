@@ -66,3 +66,5 @@ fields:
   type: boolean
   label: Published
   default: true
+pages:
+- _projects/innovation-morning.md
