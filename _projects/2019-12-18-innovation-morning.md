@@ -9,7 +9,7 @@ skills:
 techs: []
 industry: []
 description: ''
-featured_image: "/img/2020/04/20191210_093702.jpg"
+featured_image: "/img/2020/04/20191210_123325-1.jpg"
 gallery_images:
 - "/img/2020/04/20191210_123325-1.jpg"
 - "/img/2020/04/20191210_093702.jpg"
