@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c591b76b965951cba833d5c645f4ea36696ebe73d0a99e38023f950d02d55c6
-size 249
+# Local Netlify folder
+.netlify
+
+# Created by https://www.gitignore.io/api/jekyll
+# Edit at https://www.gitignore.io/?templates=jekyll
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# End of https://www.gitignore.io/api/jekyll

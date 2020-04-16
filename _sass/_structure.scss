@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d93e9b0469a388e299ad677caff631b41f132c3e832fb436544a23787a86c605
-size 523
+// - - - - - - - - - - - - - - - - - -
+
+// Structure
+
+// - - - - - - - - - - - - - - - - - -
+
+.page,
+.page__content {
+	width: 100%;
+}
+
+.wrap {
+	position: relative;
+	margin: 0 auto;
+  padding: 0 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 30px;
+
+	&__2-col {
+    @extend .grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__3-col {
+    @extend .grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include mq(tabletp) {
+    grid-gap: 30px;
+  }
+}
+
+.locked {
+  overflow: hidden;
+}

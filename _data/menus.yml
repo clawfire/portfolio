@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8237a157fe1ab0890f966e6704f578f996554b12b9bfe8511d3a4a30ab8e6342
-size 95
+---
+header:
+- url: "/"
+  title: Projects
+  weight: 2
+- url: "/blog/"
+  title: Blog
+  weight: 1

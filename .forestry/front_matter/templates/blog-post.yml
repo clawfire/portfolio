@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:735d871f3e76ece691e4c60d98cb53c016ff447c65358a7c89b847dffab7e026
-size 660
+---
+label: Blog Post
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  config:
+    required: true
+  default: post
+- type: file
+  name: featured_image
+  label: Featured Image
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Exerpt
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+  default: now
+- name: published
+  type: boolean
+  label: Published
+  default: true
+pages:
+- _posts/rebuild-serie-choosing-a-stack.md

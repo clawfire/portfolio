@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a27ab4888f7e26b093c06c0e5140694326e42f5e2409aae7279a4cef9e22521b
-size 451
+---
+title: Thanks ;)
+subtitle: Your message was sent successfully.
+#description: Show off your best work with this beautiful, minimal and customizable portfolio theme.
+#featured_image: /images/social.jpg
+---
+
+Your message is sent through my serverless function and I'll be notify. I usually answers under 48h to my emails but, it may happen during my hollidays I'm not having full access to it. In that case, I apoligize for the little longuer delay.

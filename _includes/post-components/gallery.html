@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4b855a1f86b88d1d667c2c8aded8992b88ce2095f298aabd6506475ee9b07da5
-size 366
+{%- capture columns -%}
+	{%- if include.columns -%}
+		{{ include.columns }}
+	{%- else -%}
+		2
+	{%- endif -%}
+{%- endcapture -%}
+
+{% assign images = include.images | split: "," %}
+
+<div class="gallery {% if include.full_width == true %}full-width{% endif %}" data-columns="{{ columns }}">
+	{%- for image in images -%}
+		<img src="{{ image }}">
+	{%- endfor -%}
+</div>
