@@ -1,11 +1,3 @@
----
-layout:	post
-title:	"One Day — One Projet"
-date:	2009-02-13
----
-
-  Aujourd’hui c’est le One Day — One project, j’ai donc décidé de réaliser un projet de fac que j’avais mis de coté, en un jour seulement, parceque ça me semble faisable. Il s’agit d’un gestionnaire de contenu pour agence de voyage.
-
-Au programme gestion de catégorie, d’offre, de rédacteurs, et paiement en ligne si j’ai le temps.
-
-  
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e345ba4c859268bdaf0ae689bf14dbb5e328338219b73196e72bf328bc547bc
+size 431

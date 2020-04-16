@@ -1,9 +1,3 @@
----
-layout:	post
-title:	"Importer une base de donnee MYSQL en ligne de commande"
-date:	2008-12-06
----
-
-  Parce que ça peut toujours servir, on dit merci au [mister](http://www.parenthese.be/2008/10/13/memo-importer-une-base-de-donnee-mysql-en-ligne-de-commande/) et on admire :
-
-mysql -u username -ppassword database\_name < /path/to/backup.sql  
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f69d9451889ab0ecd43b8251ea6d1d803f5e92bfb53b32f93d9b9b561626cd1
+size 347

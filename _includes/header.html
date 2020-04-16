@@ -1,36 +1,3 @@
-<header class="header--main">
-
-	<div class="wrap grid__2-col">
-		{% if site.data.settings.header_settings.logo_image != "" %}
-		<a href="{{ site.baseurl }}/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
-		</a>
-		{% else %}
-		<a href="{{ site.baseurl }}/" class="header__title">
-			{{ site.data.settings.basic_settings.site_title }}
-		</a>
-		{% endif %}
-
-		<div class="menu__toggle js-menu-toggle">
-			<div class="menu__toggle__icon"><span></span></div>
-		</div>
-
-		<nav class="header__menu">
-			<div class="menu__wrap">
-				<ul class="menu__list">
-					{% for item in site.menus.header %}
-					<li class="menu__list__item">
-						<a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text" title="Go to {{ item.title }}">{{ item.title }}</a>
-					</li>
-					{% endfor %}
-					<li class="menu__cta">
-						<a href="#" class="menu__cta__link button--text contact-trigger js-contact">Get In Touch</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
-		<a href="#" class="header__cta button--fill contact-trigger js-contact">Get In Touch</a>
-	</div>
-
-</header>
+version https://git-lfs.github.com/spec/v1
+oid sha256:705c032d6759e3c08e8147d57810632b6b657a9fac1313657ee0f71e1114af80
+size 1158

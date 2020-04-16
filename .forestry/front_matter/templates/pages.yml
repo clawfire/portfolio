@@ -1,31 +1,3 @@
----
-label: Pages
-hide_body: false
-display_field: title
-fields:
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
-- type: text
-  name: subtitle
-  label: Subtitle
-  config:
-    required: true
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Description
-- name: featured_image
-  type: file
-  config:
-    maxSize: 250
-  label: Featured Image
-pages:
-- _pages/techwatch.md
+version https://git-lfs.github.com/spec/v1
+oid sha256:44ef15de377c818218f39367d6dcbc36b20c262edd2da3ed4920a78e5a13f4f8
+size 483
