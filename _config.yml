@@ -1,3 +1,77 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:20be05286267052a850ef245ef4dcf48672a8886ceaff7409b3f2067066b6bd4
-size 1126
+site: Thibault Milan
+
+url: thibaultmilan.com
+baseurl:
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/blog/page-:num/"
+
+exclude:
+    - .lfsconfig
+    - .gitignore
+    - .gitattributes
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules/
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+timezone: Europe/Luxembourg
