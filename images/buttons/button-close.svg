@@ -1,12 +1,3 @@
----
-layout: nothing
----
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <g fill="none" fill-rule="evenodd">
-    <rect width="32" height="32" fill="{{ site.data.settings.color_settings.accent_color }}" opacity=".08" rx="6"/>
-    <g stroke="{{ site.data.settings.color_settings.accent_color }}" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" transform="translate(12 11)">
-      <path d="M4.35714286,-1 L4.35714286,10.4285714" transform="rotate(135 4.357 4.714)"/>
-      <path d="M4.35714286,-1 L4.35714286,10.4285714" transform="rotate(-135 4.357 4.714)"/>
-    </g>
-  </g>
-</svg>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6b09e83dcda830e0a28a8f1a97eba49c40bf744fb0bc6eea8e730c859232f4c
+size 635

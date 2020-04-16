@@ -1,11 +1,3 @@
----
-layout:	post
-title:	"JeFaismesdevoirs"
-date:	2009-03-06
----
-
-  FaitMesDevoirs.com le très controversé site permettant moyennant finance de faire les devoirs de nos chères têtes blondes, viens d’annoncer sa fermeture. Ce n’est pas grave car JEfaismesdevoirs.com ouvre ses portes. Ce site d’entraide communautaire pour faire ses devoirs et autrement plus éthique, et possède un design qui me rends totalement fan !
-
-N’Hésitez pas à faire un tour sur [Jefaismesdevoirs.com](http://jefaismesdevoirs.com) au plus vite !
-
-  
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc41000af20e1fc7f7c1f47d9f48e2c0725437f88d0dcf23b3990d2ab7609550
+size 538

@@ -1,9 +1,3 @@
----
-layout:	post
-title:	"World Builder"
-date:	2009-03-05
----
-
-  Une vidéo trouvé sur le blog de pilo-tee, juste magnifique . Cela parle d’un homme qui crée une ville, dans une hollochambre, pour celle qu’il aime, qui n’est pas tout a fait présente dans notre monde.
-
-  
+version https://git-lfs.github.com/spec/v1
+oid sha256:72fa64bcdb062986846f7c6eb6f94cf4af1c498d30e5081dab30b45c5753fbee
+size 279

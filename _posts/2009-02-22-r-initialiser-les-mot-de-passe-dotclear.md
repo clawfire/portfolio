@@ -1,13 +1,3 @@
----
-layout:	post
-title:	"Réinitialiser les mot de passe Dotclear"
-date:	2009-02-22
----
-
-  Il arrive toujours qu’on perde un mot de passe. Et comme c’est le cas avec dotclear, il est crypté dans la base de donnée donc irrécupérable. Voici donc un petit script dont je ne suis pas du tout l’auteur mais qui peu bien servir.
-
-Enjoy it !
-
-[Telecharger Recover.php](http://lageeknote.com/wp-content/uploads/2009/02/recover.php)
-
-![Dotclear 2](/img/0*1VBjUvjVtqnfK_0r.png)  
+version https://git-lfs.github.com/spec/v1
+oid sha256:8189a244f7fa9c1bae01b3f9e0616f44f21fdc0e5a96554385c484418a621fca
+size 479

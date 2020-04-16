@@ -1,9 +1,3 @@
----
-layout:	post
-title:	"Lageeknote"
-date:	2009-02-01
----
-
-  Lageeknote est un blog/webzine proposant des astuces de codeur / dev web et présentant des services web bien utiles . J’ai travaillé ici à l’intégration du design + réalisation du logo. Mise en conformité du thème et modification du module de gestion des images.
-
-  
+version https://git-lfs.github.com/spec/v1
+oid sha256:d00cb640f32263cd64dc223e3274fa67c5c51e32909d5f9a67d65a16317e756e
+size 338
