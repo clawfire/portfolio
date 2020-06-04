@@ -36,3 +36,10 @@ fields:
   config:
     required: false
   label: Keynote
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  hidden: true
+  default: talk
