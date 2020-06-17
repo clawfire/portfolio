@@ -1,0 +1,12 @@
+<article class="talk__card">
+  <a href="{{ talk.url | relative_url }}" class="talk__link">
+    <time class="talk__date label--big">
+      <span class="talk_date--number">{{ talk.date | date: "%d" }}</span>
+      <span class="talk_date--month">{{talk.date | date: "%B"}}</span>
+    </time>
+    <span class="talk__title">
+      <h5 class="subtitle">{{ talk.title }}</h5>
+      <span>{{talk.location}}</span>
+    </span>
+  </a>
+</article>
