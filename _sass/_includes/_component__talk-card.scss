@@ -13,6 +13,9 @@
   &:hover {
     transform: translateY(-4px);
   }
+  a:hover{
+    color:inherit;
+  }
 
   .talk__link {
     display: flex;
@@ -28,6 +31,7 @@
       line-height: $h3-lineheight-small;
       display: block;
     }
+    color: $accent-color;
   }
   .talk__title {
     flex: auto;
