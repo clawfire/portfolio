@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  talks:
+    output: true
+    permalink: /talks/:slug
 
 defaults:
   -
