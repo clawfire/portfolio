@@ -1,0 +1,36 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Component - Talk Card
+
+// - - - - - - - - - - - - - - - - - -
+
+.talk__card {
+  transition: all 120ms;
+  box-sizing: content-box;
+  background: #fff;
+  padding: 5px 10px;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  .talk__link {
+    display: flex;
+  }
+
+  .talk__date {
+    margin-bottom: 6px;
+    flex: none 50px ;
+    .talk_date--number{
+      font-weight: $h3-weight;
+      font-size: $h3-size-small;
+      letter-spacing: $h3-spacing-small;
+      line-height: $h3-lineheight-small;
+      display: block;
+    }
+  }
+  .talk__title {
+    flex: auto;
+    padding-left: 20px;
+  }
+}
