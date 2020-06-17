@@ -5,7 +5,7 @@ published: true
 image: "/img/2020/05/luke-chesser-lg8toawe8wq-unsplash.jpg"
 title: "Github Actions"
 description: CI, CD, housekeeping, personal assistant and your barista
-location: Online
+location: JS Luxembourg (online)
 link: https://www.meetup.com/luxembourgjs/events/270910908/
 
 ---
