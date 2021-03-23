@@ -2,7 +2,9 @@ site: Thibault Milan
 
 url: thibaultmilan.com
 baseurl:
+future: true
 
+collections_dir: content
 collections:
   pages:
     output: true
@@ -10,37 +12,38 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
-  projects:
-    output: true
-    permalink: /project/:slug
   talks:
     output: true
-    permalink: /talks/:slug
+    permalink: /:collection/:title
+  projects:
+    output: true
+    permalink: /:collection/:slug
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
 
 markdown: kramdown
 highlighter: rouge
