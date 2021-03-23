@@ -12,7 +12,7 @@ footer_settings:
   tagline: 'Baked with <span style="color: #cf4b35"><i class="fad fa-heart"></i></span>
     in Luxembourg, thanks to Jekyll & Netlify'
 hero_settings:
-  background_image: "/images/backgrounds/background-hero.svg"
+  background_image: '/images/backgrounds/background-hero.svg'
 post_settings:
   grid_spacing: 10
 contact_settings:
@@ -54,9 +54,9 @@ color_settings:
   text_dark_color: "#202224"
   text_medium_color: "#6C7A89"
   text_light_color: "#AEB3BB"
-  accent_color: rgba(4, 101, 100, 1.00)
+  accent_color: "rgba(3, 129, 215, 1.00)"
   border_color: "#ECEDEF"
-  error_color: "#D64541"
+  error_color: "rgba(206, 3, 11, 1.00)"
 font_settings:
   font_embed: <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700"
     rel="stylesheet">
