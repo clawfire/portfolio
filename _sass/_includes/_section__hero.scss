@@ -21,6 +21,9 @@
 	.title .subtitle {
 		margin-bottom: 8px;
 	}
+  .title svg{
+    color: $accent-color;
+  }
 
 	.intro {
 		position: relative;
