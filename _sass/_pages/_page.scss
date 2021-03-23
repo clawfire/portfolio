@@ -8,6 +8,9 @@
 .header--single {
 	padding: 40px 0 48px;
 
+  svg{
+    color: var(--accent,$accent-color);
+  }
 	.header__title {
 		margin-bottom: 16px;
 	}
