@@ -3,7 +3,14 @@
 // Component - Talk Card
 
 // - - - - - - - - - - - - - - - - - -
-
+.talk__card.talk-past{
+  opacity: 0.7;
+  filter: sepia(50);
+  &:hover{
+    opacity: 1;
+    filter: none;
+  }
+}
 .talk__card {
   transition: all 120ms;
   box-sizing: content-box;
@@ -31,7 +38,7 @@
       line-height: $h3-lineheight-small;
       display: block;
     }
-    color: $accent-color;
+    color: var(--accent,$accent-color);
   }
   .talk__title {
     flex: auto;
