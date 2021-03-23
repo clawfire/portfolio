@@ -31,7 +31,14 @@
   .post__content {
     max-width: 656px;
     margin-bottom: 80px;
-
+    a {
+      color: var(--accent,$accent-color);
+      border-bottom: 1px solid var(--accent,$accent-color);
+    }
+    a:hover{
+      background: var(--accent,$accent-color);
+      color: white;
+    }
     p {
       margin-bottom: 16px;
     }
@@ -156,7 +163,7 @@
             text-align: center;
             color: $text-light-color;
           }
-          
+
           p {
             display: inline;
             max-width: 100%;
