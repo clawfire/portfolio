@@ -29,10 +29,11 @@ featured_image: /images/social.jpg
   <section class="recent-posts">
 		<div class="wrap grid">
 			<header class="recent-posts__header">
-				<h4>Upcoming talks</h4>
+				<h4>Talks, Meetups & Conferences</h4>
 				<a href="{{ '/talks' | relative_url }}" class="action button--text--accent --right">All Talks</a>
 			</header>
 			<div class="recent-posts__list grid">
+        {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 				{% for talk in site.talks limit: 3 %}
 				{% include component__talk-preview.html %}
 				{% endfor %}

@@ -1,4 +1,6 @@
-<article class="talk__card">
+{% capture posttime %}{{talk.date | date: '%s'}}{% endcapture %}
+{% if posttime<nowunix %}{% assign past='talk-past' %}{% endif %}
+<article class="talk__card {{past}}">
   <a href="{{ talk.url | relative_url }}" class="talk__link">
     <time class="talk__date label--big">
       <span class="talk_date--number">{{ talk.date | date: "%d" }}</span>
@@ -6,7 +8,7 @@
     </time>
     <span class="talk__title">
       <h5 class="subtitle">{{ talk.title }}</h5>
-      <span>{{talk.location}}</span>
+      <span>{{talk.location.name}}</span>
     </span>
   </a>
 </article>
