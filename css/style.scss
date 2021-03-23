@@ -13,6 +13,12 @@
 
 
 // Colors
+$black: #000000;
+$stratos: #000744;
+$true-blue: #0381d7;
+$deep-sky-blue: #02bbed;
+$boston-university-red: #ce030b;
+$razzmatazz: #e80d4d;
 
 $background-color: {{ site.data.settings.color_settings.background_color }};
 $background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
@@ -147,11 +153,37 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 // Post details
 $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
+// Hero settings
+$hero-image: '/images/backgrounds/background-hero.svg';
 
 // Base URL
 $baseurl: '{{ site.baseurl }}';
 
+:root{
+  --color-stratos: #000744;
+  --color-true-blue: #0381d7;
+  --color-deep-sky-blue: #02bbed;
+  --color-boston-university-red: #ce030b;
+  --color-razzmatazz: #e80d4d;
 
+  --background-color:{{ site.data.settings.color_settings.background_color }};
+  --background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
+
+  --border-color: {{ site.data.settings.color_settings.border_color }};
+
+  --text-dark-color: {{ site.data.settings.color_settings.text_dark_color }};
+  --text-medium-color: {{ site.data.settings.color_settings.text_medium_color }};
+  --text-light-color: {{ site.data.settings.color_settings.text_light_color }};
+
+  --accent-color: {{ site.data.settings.color_settings.accent_color }};
+  --error-color: {{ site.data.settings.color_settings.error_color }};
+
+  --body-font: {{ site.data.settings.font_settings.body_font }};
+  --title-font: {{ site.data.settings.font_settings.title_font }};
+
+  --regular-weight: {{ site.data.settings.font_settings.regular_weight }};
+  --bold-weight: {{ site.data.settings.font_settings.bold_weight }};
+}
 
 // - - - - - - - - - - Global styles
 

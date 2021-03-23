@@ -1,8 +1,5 @@
----
-layout: nothing
----
 <svg xmlns="http://www.w3.org/2000/svg" width="1025" height="542" viewBox="0 0 1025 542">
-  <g fill="none" fill-rule="evenodd" stroke="{{ site.data.settings.color_settings.accent_color }}" stroke-linecap="round" stroke-linejoin="round" opacity=".7" transform="translate(2)">
+  <g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" opacity=".7" transform="translate(2)">
     <path stroke-width="6" d="M96.25,33.5 C91.9166667,28.7991453 91.9166667,24.6324786 96.25,21" opacity=".24"/>
     <path stroke-width="5" d="M546.25,197.5 C543.25,191.67094 543.25,186.504274 546.25,182" opacity=".6" transform="matrix(1 0 0 -1 0 379.5)"/>
     <path stroke-width="5" d="M161.25,138.5 C160.25,136.67094 161.25,133.504274 164.25,129" opacity=".24" transform="matrix(1 0 0 -1 0 267.5)"/>
