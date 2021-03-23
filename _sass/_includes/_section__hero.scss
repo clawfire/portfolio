@@ -58,7 +58,6 @@
 }
 
 .hero__background {
-	display: block;
 	position: absolute;
 	top: 0px;
 	left: 50%;
@@ -66,6 +65,9 @@
 	z-index: -1;
 	max-width: 190%;
 	display: none;
+  background: $accent-color;
+  -webkit-mask-image: url($baseurl+$hero-image);
+  mask-image: url($baseurl+$hero-image);
 
 	@include mq(tabletp) {
 		display: block;
