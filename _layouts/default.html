@@ -22,7 +22,7 @@
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title | strip_html }} &ndash;
 		{{ page.title | strip_html}}{% else %}{{ page.title | strip_html }} &ndash; {{ site.data.settings.basic_settings.site_title | strip_html }}{% endif %}</title>
-	<meta name="description" content="{{ page.description }}">
+	<meta name="description" content="{{ page.description | strip_html}}">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -34,7 +34,7 @@
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title"
 		content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title | strip_html }} &ndash; {{ page.title | strip_html}}{% else %}{{ page.title | strip_html }} &ndash; {{ site.data.settings.basic_settings.site_title | strip_html }}{% endif %}" />
-	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:description" content="{{ page.description | strip_html}}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
 
 	{% if site.data.settings.font_settings.font_embed %}
