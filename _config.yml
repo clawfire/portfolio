@@ -1,83 +1,111 @@
-site: Thibault Milan
-
-url: thibaultmilan.com
+site:                      Thibault Milan
+# General Settings
+url:                       thibaultmilan.com
 baseurl:
-future: true
+timezone:                  Europe/Luxembourg
 
-collections_dir: content
+# Filtering Content
+show_drafts:               null
+limit_posts:               0
+future:                    true
+unpublished:               false
+
+# Dev Settings
+livereload:                true
+openurl:                   true
+
+# Collections Section
+collections_dir:           content
 collections:
   pages:
-    output: true
-    permalink: /:name
+    output:                true
+    permalink:             /:name
   posts:
-    output: true
-    permalink: /blog/:slug
+    output:                true
+    permalink:             /blog/:year/:month/:day/:title/
   talks:
-    output: true
-    permalink: /:collection/:title
+    output:                true
+    permalink:             /:collection/:year/:month/:day/:title/
   projects:
-    output: true
-    permalink: /:collection/:slug
+    output:                true
+    permalink:             /:collection/:slug
 
+# Defaults for each collection type
 defaults:
   - scope:
-      path: ""
+      path:                ""
     values:
-      layout: "default"
+      layout:              "default"
   - scope:
-      path: ""
-      type: "pages"
+      path:                ""
+      type:                "pages"
     values:
-      layout: "page"
+      layout:              "page"
   - scope:
-      path: ""
-      type: "posts"
+      path:                ""
+      type:                "posts"
     values:
-      layout: "post"
+      layout:              "post"
   - scope:
-      path: ""
-      type: "projects"
+      path:                ""
+      type:                "projects"
     values:
-      layout: "project"
+      layout:              "project"
   - scope:
-      path: ""
-      type: "talks"
+      path:                ""
+      type:                "talks"
     values:
-      layout: "talk"
+      layout:              "talk"
 
-markdown: kramdown
-highlighter: rouge
+# Conversion
+markdown:                  kramdown
+highlighter:               rouge
+lsi:                       false
+exceprt_separator:         "\n\n"
+incremental:               false
 
+# Markdown Processors
 kramdown:
-  input: GFM
+  input:                   GFM
   syntax_highlighter_opts:
     span:
-      line_numbers: false
+      line_numbers:        true
     block:
-      line_numbers: true
-      start_line: 1
+      line_numbers:        true
+      start_line:          1
 
+# Sass Config
 sass:
-  style: compressed
+  style:                   compressed
 
+# Plugins
 plugins:
   - jekyll-sitemap
 
-paginate: 7
-paginate_path: "/blog/page-:num/"
+# Pagination Settings
+pagination:
+  enabled:                 true
+  debug:                   true
+  collection:              'post'
+  per_page:                10
+  permalink:               '/page/:num'
+  title:                   ':title - page :num'
+  limit:                   30
+  sort_field:              'date'
+  sort_reverse:            true
+  category:                'posts'
+  tag:                     ''
+  locale:                  ''
+  trail:
+    before:                2
+    after:                 2
+  extension:               html
+  indexpage:               'index'
 
-exclude:
-    - .lfsconfig
-    - .gitignore
-    - .gitattributes
-    - .sass-cache/
-    - .jekyll-cache/
-    - gemfiles/
-    - Gemfile
-    - Gemfile.lock
-    - node_modules/
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
-timezone: Europe/Luxembourg
+# Handling Reading
+include:                   [".htaccess"]
+exclude:                   [".lfsconfig", ".gitignore", ".gitattributes", ".sass-cache/", ".jekyll-cache/", "gemfiles/", "Gemfile", "Gemfile.lock", "node_modules/", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files:                [".git", ".svn"]
+encoding:                  "utf-8"
+markdown_ext:              "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter:       false
