@@ -34,7 +34,7 @@ featured_image: /images/social.jpg
 			</header>
 			<div class="recent-posts__list grid">
         {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-				{% for talk in site.talks limit: 3 %}
+				{% for talk in site.categories.talks limit: 3 %}
 				{% include component__talk-preview.html %}
 				{% endfor %}
 			</div>
