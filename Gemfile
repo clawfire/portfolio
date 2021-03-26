@@ -8,5 +8,4 @@ group :jekyll_plugins do
   gem "jekyll-menus"
   gem 'jekyll-gist'
   gem 'jekyll-twitter-plugin'
-  gem 'jekyll_oembed'
 end
