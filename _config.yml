@@ -23,9 +23,6 @@ collections:
   posts:
     output:                true
     permalink:             /blog/:year/:month/:day/:title/
-  talks:
-    output:                true
-    permalink:             /:collection/:year/:month/:day/:title/
   projects:
     output:                true
     permalink:             /:collection/:slug
@@ -51,11 +48,6 @@ defaults:
       type:                "projects"
     values:
       layout:              "project"
-  - scope:
-      path:                ""
-      type:                "talks"
-    values:
-      layout:              "talk"
 
 # Conversion
 markdown:                  kramdown
