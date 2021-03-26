@@ -75,7 +75,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-twitter-plugin
-  - jekyll_oembed
 
 # Pagination Settings
 pagination:
