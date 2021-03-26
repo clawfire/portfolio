@@ -50,6 +50,7 @@ layout: default
           </p>
           {% endif %}
       </section>
+      {% include section__about.html divider=true %}
 			<div class="post__more grid">
 				{% if page.previous.url %}
 				<a class="prev-post subtitle" href="{{ page.previous.url | relative_url }}">{{page.previous.title}}</a>
@@ -62,6 +63,5 @@ layout: default
 		</div>
 
 	</section>
-  {% include section__about.html divider=true %}
 
 </div>
