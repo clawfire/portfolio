@@ -7,7 +7,7 @@ title: Upcoming Webinars
 description: Lockdown is in effect in most of the E.U. countries. Thoughtful about
   the difficulties it can generate (isolation, loneliness, etc) Smile decided to launch
   free webinars, every day, at 1:30 pm.
-
+category: talks
 ---
 That's now 2 weeks we are staying home in Luxembourg to flatten the curve and prevent COVID-19 to spread. At Smile, especially in the Innovation Squad, we are already the rest of the year a remote team expect we are working in clusters of 2-3 peoples together on different agencies or remote sites. The only change now is we're staying home and are a little bit more alone.
 

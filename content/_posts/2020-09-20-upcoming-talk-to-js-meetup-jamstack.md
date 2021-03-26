@@ -5,7 +5,7 @@ published: true
 featured_image: "/img/2020/10/jamstack-101.png"
 title: "Upcoming talk to \U0001F1F1\U0001F1FA  JS Meetup: JAMStack"
 description: ''
-
+category: talks
 ---
 You probably heard of it; there’s this movement of people saying obvious things like « bare HTML and CSS are faster than your CMS » or using adjectives like « blazing fast ». Ok, but what’s the JAMStack except for Javascript, API, and Mark-up? What are the advantages? Why it changes the paradigm of a lot our website creation process for the past ten years, and how to embrace it super quickly?
 
