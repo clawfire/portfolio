@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: talk
 date: 2020-03-29 17:58:28 +0200
 published: true
 featured_image: "/img/2020/03/2.png"

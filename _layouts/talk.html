@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="page-post">
+<div class="page-post page-talk">
   {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
 
@@ -38,16 +38,18 @@ layout: default
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
 				{{ page.content }}
 			</article>
-      {% if posttime > nowunix %}
-      <h3>Wanna attend this event?</h3>
-      <p>It's easy, just follow this link to <a href="{{page.link}}"><i class="fad fa-id-badge"></i> Register</a></a>
-      {% else %}
-      <h3><i class="fad fa-flux-capacitor"></i> Hello time-travellers</h3>
-      <p>
-        The event is finished now. Thanks for your interest.<br>
-        You can <a href="{{ site.baseurl }}talks/index.html">take a look to all my talks</a> or contact me if you have any questions / inquiries.
-      </p>
-      {% endif %}
+      <section class="attending">
+        {% if posttime > nowunix %}
+        <h3>Wanna attend this event?</h3>
+        <p>It's easy, just follow this link to <a href="{{page.link}}"><i class="fad fa-id-badge"></i> Register</a></a>
+          {% else %}
+          <h3><i class="fad fa-flux-capacitor"></i> Hello time-travellers</h3>
+          <p>
+            The event is finished now. Thanks for your interest.<br>
+            You can <a href="{{ site.baseurl }}talks/index.html">take a look to all my talks</a> or contact me if you have any questions / inquiries.
+          </p>
+          {% endif %}
+      </section>
 			<div class="post__more grid">
 				{% if page.previous.url %}
 				<a class="prev-post subtitle" href="{{ page.previous.url | relative_url }}">{{page.previous.title}}</a>
