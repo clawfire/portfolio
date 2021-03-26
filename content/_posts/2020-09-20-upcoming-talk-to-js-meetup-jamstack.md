@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: talk
 date: 2020-09-20 11:12:45 +0200
 published: true
 featured_image: "/img/2020/10/jamstack-101.png"
