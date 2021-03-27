@@ -21,7 +21,7 @@ layout: default
         {% endunless %}
       {% endif %}
       {% if posttime > nowunix %}
-      <span class="label"><a href="{{page.link}}"}}><i class="fad fa-id-badge"></i> Register</a></span>
+      <span class="label"><a href="{{page.event_link}}"}}><i class="fad fa-id-badge"></i> Register</a></span>
       {% else %}
       <span class="label"><i class="fad fa-calendar-check"></i> This event is now finished</span>
       {% endif %}
@@ -30,6 +30,8 @@ layout: default
         <span class="label"><i class="fad fa-comment"></i> Ce talk est en Français</span>
         {% when 'en' %}
         <span class="label"><i class="fad fa-comment"></i> This talk is in English</span>
+        {% else %}
+        <span class="label"><i class="fad fa-comment-times"></i> Language information is missing</span>
       {% endcase %}
 
 		</div>
@@ -48,7 +50,7 @@ layout: default
       <section class="attending">
         {% if posttime > nowunix %}
         <h3>Wanna attend this event?</h3>
-        <p>It's easy, just follow this link to <a href="{{page.link}}"><i class="fad fa-id-badge"></i> Register</a></a>
+        <p>It's easy, just follow this link to <a href="{{page.event_link}}"><i class="fad fa-id-badge"></i> Register</a></a>
           {% else %}
           <h3><i class="fad fa-flux-capacitor"></i> Hello time-travellers</h3>
           <p>
