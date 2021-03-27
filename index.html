@@ -82,13 +82,15 @@ featured_image: /images/social.jpg
 				<a href="{{ '/blog' | relative_url }}" class="action button--text--accent --right">All Posts</a>
 			</header>
 			<div class="recent-posts__list grid">
-				{% for post in site.posts limit: 6 %}
-          {% assign count = 0 %}
+        {% assign count = 0 %}
+				{% for post in site.posts %}
           {% unless post.categories contains 'talks' %}
-            {% assign count = count+1 %}
-            {% unless count<=3 %}
+          {% assign count = count | plus:1 %}
+            {% if count<=3 %}
               {% include component__post-preview.html %}
-            {% endunless %}
+            {% else %}
+              {% break %}
+            {% endif %}
           {% endunless %}
 				{% endfor %}
 			</div>
