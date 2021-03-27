@@ -1,11 +1,16 @@
 ---
-layout: post
-date: 2020-05-31 20:06:02 +0200
+layout: talk
+date: 2020-07-01 19:00:00 +0200
 published: true
 featured_image: "/img/2020/05/luke-chesser-lg8toawe8wq-unsplash.jpg"
-title: "Upcoming talk to \U0001F1F1\U0001F1FA  JS Meetup : Github Actions"
+title: "Github Actions"
 description: CI, CD, housekeeping, personal assistant and your barista
-
+location:
+  name: JS Luxembourg (online)
+  url: 
+event_link: https://www.meetup.com/luxembourgjs/events/270910908/
+category: talks
+language: en
 ---
 On Wednesday, July 1, 2020
 

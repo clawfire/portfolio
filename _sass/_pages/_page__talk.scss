@@ -1,0 +1,16 @@
+.page-talk {
+  .attending {
+    margin-bottom: 8em;
+  }
+
+  &.post__more {
+    outline: 1px solid red !important;
+    .prev-post::before {
+      content: 'Previous Talk';
+    }
+
+    .next-post::before {
+      content: 'Next Talk';
+    }
+  }
+}
