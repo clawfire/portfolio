@@ -15,9 +15,9 @@ layout: default
 			<time class="post__date label dt-start" datetime="{{page.date | date_to_xmlschema}}">On {{ page.date | date_to_long_string }}</time>&nbsp;
       {% if page.location %}
         {% unless page.location.url%}
-        <span class="label p-location">For/At {{page.location.name}} </span>&nbsp;
+        <span class="label p-location">For/At {{page.location.name}}</span>&nbsp;
         {% else %}
-        <span class="label p-location h-card">For/At <a href={{page.location.url}} title="Visit {{page.location.name}}" class="p-org u-url">{{page.location.name}}</a> </span>&nbsp;
+        <span class="label p-location h-card">For/At <a href={{page.location.url}} title="Visit {{page.location.name}}" class="p-org u-url">{{page.location.name}}</a></span>&nbsp;
         {% endunless %}
       {% endif %}
       {% if posttime > nowunix %}
