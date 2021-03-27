@@ -80,21 +80,21 @@ plugins:
 pagination:
   enabled:                 true
   debug:                   true
-  collection:              'post'
+  #collection:             'post'
   per_page:                10
-  permalink:               '/page/:num'
+  permalink:               '/:coll    /:num'
   title:                   ':title - page :num'
   limit:                   30
   sort_field:              'date'
   sort_reverse:            true
-  category:                'posts'
-  tag:                     ''
-  locale:                  ''
-  trail:
-    before:                2
-    after:                 2
-  extension:               html
-  indexpage:               'index'
+  #category:               'posts'
+  #tag:                    ''
+  #locale:                 ''
+  #trail:
+  #  before:               2
+  #  after:                2
+  #extension:              html
+  #indexpage:              'index'
 
 # Handling Reading
 include:                   [".htaccess"]
