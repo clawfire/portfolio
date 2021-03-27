@@ -1,0 +1,22 @@
+---
+layout: talk
+title: "Blockchain 101"
+date: "2020-04-15 12:00:00 +0100"
+published: true
+featured_image: "/img/2020/03/2.png"
+description:
+location:
+  name: Smile
+  url: https://smile.eu
+event_link: https://www.smile.eu/fr/groupeevenements/quick-talk-tech-smile
+category: talks
+language: fr
+---
+
+Blockchain 101 est un "lightning talk" de 20 au court duquel je vais tenter de vous expliquer simplement et rapidement ce qu'est la blockchain, afin que l'on puisse aborder dans d'autres mini-conférences, les futurs que ce genre de technology peut apporter.
+
+Vous pouvez [retrouver mes slides sur mon Speakerdeck](https://speakerdeck.com/thibaultmilan/introduction-a-la-blockchain-et-cas-dusage) et retrouver la conférence complète ci-dessous:
+
+{% include post-components/video.html
+url="https://www.youtube-nocookie.com/embed/veHxIfsp44A"
+%}
