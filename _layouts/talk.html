@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="page-post page-talk">
+  {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+  {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+
+	<header class="post__header header--single">
+
+		<div class="wrap">
+			<h1 class="post__title">{{ page.title }}</h1>
+      {% if page.description %}
+      <h2 class="post__subtitle">{{ page.description}}</h2>
+      {% endif %}
+			<time class="post__date label">On {{ page.date | date_to_long_string }}</time>&nbsp;
+      {% if page.location %}
+        {% unless page.location.url%}
+        <span class="label">For/At {{page.location.name}} </span>&nbsp;
+        {% else %}
+        <span class="label">For/At <a href={{page.location.url}} title="Visit {{page.location.name}}">{{page.location.name}}</a> </span>&nbsp;
+        {% endunless %}
+      {% endif %}
+      {% if posttime > nowunix %}
+      <span class="label"><a href="{{page.link}}"}}><i class="fad fa-id-badge"></i> Register</a></span>
+      {% else %}
+      <span class="label"><i class="fad fa-calendar-check"></i> This event is now finished</span>
+      {% endif %}
+		</div>
+
+		<img src="{{ page.featured_image | relative_url }}" class="post__featured-image">
+
+	</header>
+
+	<section class="post-full">
+
+		<div class="wrap">
+
+			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+				{{ page.content }}
+			</article>
+      <section class="attending">
+        {% if posttime > nowunix %}
+        <h3>Wanna attend this event?</h3>
+        <p>It's easy, just follow this link to <a href="{{page.link}}"><i class="fad fa-id-badge"></i> Register</a></a>
+          {% else %}
+          <h3><i class="fad fa-flux-capacitor"></i> Hello time-travellers</h3>
+          <p>
+            The event is finished now. Thanks for your interest.<br>
+            You can <a href="{{ site.baseurl }}talks/index.html">take a look to all my talks</a> or contact me if you have any questions / inquiries.
+          </p>
+          {% endif %}
+      </section>
+      {% include section__about.html divider=true %}
+			<div class="post__more grid">
+				{% if page.previous.url %}
+				<a class="prev-post subtitle" href="{{ page.previous.url | relative_url }}">{{page.previous.title}}</a>
+				{% endif %}
+				{% if page.next.url %}
+				<a class="next-post subtitle" href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+				{% endif %}
+			</div>
+
+		</div>
+
+	</section>
+
+</div>

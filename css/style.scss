@@ -196,6 +196,7 @@ $baseurl: '{{ site.baseurl }}';
 @import "_pages/_page";
 @import "_pages/_page__blog";
 @import "_pages/_page__post";
+@import "_pages/_page__talk";
 @import "_pages/_page__project";
 
 @import "_includes/_component__header";
@@ -205,6 +206,7 @@ $baseurl: '{{ site.baseurl }}';
 @import "_includes/_gallery";
 @import "_includes/_component__contact-form";
 @import "_includes/_component__post-card";
+@import "_includes/_component__talk-card";
 @import "_includes/_section__about";
 @import "_includes/_section__recent-posts";
 
