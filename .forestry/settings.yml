@@ -8,14 +8,14 @@ sections:
   path: content/_pages
   label: Pages
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - pages
 - type: directory
   path: content/_posts
   label: Posts
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - talks
   - blog-post
