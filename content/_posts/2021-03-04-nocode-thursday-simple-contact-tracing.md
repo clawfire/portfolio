@@ -13,6 +13,10 @@ location:
   url: https://www.notion.so/nocode-Thursday-f3cc13b34cd94d479e9f0f915fc637cc
 
 ---
+Tout les jeudis, j'organise [un stream sur Twitch](http://twitch.tv/thibault_nocode) où j'explore une des idées ci-dessous et construit, à l'aide d'outil no-code ou low-code une solution. C'est l'occasion de vous faire découvrir ou re-découvrir des outils simples et intuitifs pour démarrer vos projets, mais aussi d'avoir des conversations franches à propos des limites qui peuvent exister.
+
+***
+
 Pour cette session nous allons partir sur un sujet d’actualité, une application de 🦠 contact tracing #covid19 relativement simple. L'idée est de coller aux obligations faites dans plusieurs pays, notamment en 🇧🇪Belgique, de collecter les données des clients qui viennent en point de présence physique. Sauf que, tenir un registre papier ou demander aux gens de remplir un billet sur formulaire papier à donner ensuite aux équipes de ventes (coucou KFC) c'est vraiment pas top en temps de pandémie non?
 
 On va donc faire un truc assez simple:
