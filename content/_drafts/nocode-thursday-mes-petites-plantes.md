@@ -17,3 +17,10 @@ location:
   url: https://www.twitch.tv/thibault_nocode
 
 ---
+🗓Ce jeudi à 19h, retrouvez moi pour la toute première session de #NoCode Thursday.  
+  
+1h de live streaming où je vous montrerais comment utiliser l'excellent Glideapps pour créer une application mobile #pwa à partir d'un simple feuille GoogleSheets ! Et pour commencer doucement, on va faire une petite app pour gérer vos 🌱petites plantes de maison. Je sais pas pour vous mais moi, avec le confinement, j'ai commencé à faire une collection 🪴  
+  
+🇫🇷 Ca sera dans la langue de Molière  
+💬 Il y aura un chat pour échanger  
+👉 [http://twitch.tv/thibault_nocode](http://twitch.tv/thibault_nocode "http://twitch.tv/thibault_nocode")
