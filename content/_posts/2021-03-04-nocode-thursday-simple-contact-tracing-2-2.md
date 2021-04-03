@@ -4,7 +4,7 @@ published: true
 category: talks
 layout: talk
 date: 2021-03-11 20:00:00 +0100
-title: "#nocode Thursday: Simple contact tracing 2/2"
+title: "#nocode Thursday: Simple contact tracing"
 description: ''
 featured_image: "/img/2021/04/copie-de-fluo-vert-et-violet-lego-twitch-banniere.png"
 event_link: https://www.twitch.tv/thibault_nocode
