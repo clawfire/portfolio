@@ -86,3 +86,5 @@ fields:
   label: Layout
   default: talk
   hidden: true
+pages:
+- content/_posts/nocode-thursday-mes-petites-plantes.md
