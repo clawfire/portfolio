@@ -9,6 +9,9 @@ sections:
   label: Posts
   create: documents
   match: "*"
+  templates:
+  - talks
+  - blog-post
 - type: directory
   path: content/_projects
   label: Projects
