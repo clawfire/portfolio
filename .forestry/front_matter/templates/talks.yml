@@ -1,4 +1,87 @@
 ---
 label: Talks
 hide_body: false
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date of that talk
+  description: ''
+  config:
+    required: true
+    date_format: ''
+    time_format: 
+    display_utc: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title of your talk
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Short description of the talk
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+- name: language
+  type: select
+  default: en
+  config:
+    required: true
+    options:
+    - en
+    - fr
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language of the talk
+- name: event_link
+  type: text
+  config:
+    required: true
+  label: RSVP / Event Link
+- name: location
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: true
+    label: Name
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  label: Location
+  description: Venue or Organisation
+- name: published
+  type: boolean
+  label: Published
+  description: If you don't want to publish it yet, deactivate this
+  default: true
+- name: category
+  type: text
+  config:
+    required: true
+  label: Category
+  hidden: true
+  default: talks
+  description: Should be assigned to "<em>talks</em>" to be used properly on the site
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: talk
+  hidden: true
