@@ -5,30 +5,25 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: _talks
-  label: Talks
-  create: all
-  match: "**/*"
+  path: content/_posts
+  label: Posts
+  create: documents
+  match: "*"
   templates:
   - talks
+  - blog-post
 - type: directory
-  path: _projects
+  path: content/_projects
   label: Projects
   create: documents
   match: "*"
   templates:
   - portfolio
-- type: jekyll-posts
-  label: Posts
-  create: documents
-  templates:
-  - blog-post
 - type: directory
-  path: _pages
+  path: content/_pages
   label: Pages
   create: documents
   match: "*"
-  exclude: ".*"
   templates:
   - pages
 - type: document
