@@ -1,45 +1,93 @@
 ---
 label: Talks
 hide_body: false
+display_field: title
 fields:
 - name: date
   type: datetime
+  label: Date of that talk
   description: ''
   config:
     required: true
-    date_format: DD/MM/YYYY
+    date_format: ''
     time_format: 
-    display_utc: false
-  label: Date of the talk
+    display_utc: true
 - name: title
   type: text
   config:
     required: true
-  label: Title
-- name: location
-  type: text
+  label: Title of your talk
+- name: description
+  type: textarea
+  default: ''
   config:
     required: false
-  label: Location
-- name: link
-  type: text
-  config:
-    required: true
-  label: RSVP / Link
-- name: image
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Short description of the talk
+- name: featured_image
   type: file
   config:
     maxSize: 64
-  label: Image
-- name: keynote
+  label: Featured Image
+- name: language
+  type: select
+  default: en
+  config:
+    required: true
+    options:
+    - en
+    - fr
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language of the talk
+- name: event_link
   type: text
   config:
-    required: false
-  label: Keynote
+    required: true
+  label: RSVP / Event Link
+- name: location
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: true
+    label: Name
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  label: Location
+  description: Venue or Organisation
+- name: published
+  type: boolean
+  label: Published
+  description: If you don't want to publish it yet, deactivate this
+  default: true
+- name: category
+  type: text
+  config:
+    required: true
+  label: Category
+  hidden: true
+  default: talks
+  description: Should be assigned to "<em>talks</em>" to be used properly on the site
 - name: layout
   type: text
   config:
     required: true
   label: Layout
-  hidden: true
   default: talk
+  hidden: true
+pages:
+- content/_posts/2021-02-25-nocode-thursday-mes-petites-plantes.md
+- content/_posts/2021-03-04-nocode-thursday-simple-contact-tracing-2-2.md
+- content/_posts/2021-03-04-nocode-thursday-simple-contact-tracing.md
+- content/_posts/2021-04-08-nocode-thursday-eurovision-song-contest.md
