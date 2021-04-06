@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="page-post page-talk h-event">
   {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-  {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+  {% capture posttime %}{{page.date | date: '%s'}}{% endcapture %}
 
 	<header class="post__header header--single">
 
