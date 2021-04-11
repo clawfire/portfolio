@@ -37,6 +37,9 @@
 	<meta property="og:description" content="{{ page.description | strip_html}}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
 
+  <!-- Atom Feed -->
+  {% feed_meta %}
+
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
 	{{ site.data.settings.font_settings.font_embed }}
