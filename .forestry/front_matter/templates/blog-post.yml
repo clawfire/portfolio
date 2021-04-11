@@ -37,3 +37,5 @@ fields:
   type: boolean
   label: Published
   default: true
+pages:
+- content/_posts/covid-tracker-customer-registry-update.md
