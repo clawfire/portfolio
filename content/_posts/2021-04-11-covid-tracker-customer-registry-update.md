@@ -8,6 +8,8 @@ description: That's a while now I didn't post about the project but, behind the 
   I worked on the last bits that was missing in the app.
 
 ---
+That's a while now I didn't post about the project but, behind the scene, I worked on the last bits that was missing in the app.
+
 ## Automation
 
 If the automation still can be done with Zapier, I wanted a FREE option to do so. So the app can be 100% FREE if some venues want to use it but can't afford putting money in a solution. That's why I removed, for now, the email notification and wrap everything into Google App Script function.
@@ -26,3 +28,7 @@ full_width = true
 If video is not your thing, I put also online [a help center]() with everything to know about the app, how-to and some extra ressources. That's the place I'll add content if some questions received worth sharing.
 
 ## Support my work
+
+First, I offer to setup the app for you and have a 30min video call with you to demonstrate how to use the app. If you're uneasy doing all the installation by yourself, it can be a good option to have the app for just 100€ and support me at the same time. I'll be more than happy to share with you some extra stuff for free as well 😃 
+
+Another option is to use my [buy me a coffee page](https://buymeacoffee.com/thibault) which will give you access to some exclusive content, not just for this app 😃 
