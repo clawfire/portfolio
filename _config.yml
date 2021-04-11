@@ -1,6 +1,8 @@
 site:                      Thibault Milan
 # General Settings
 url:                       thibaultmilan.com
+title:                     Thibault Milan's weblog
+description:               Find out what I've been up through my latest tech post
 baseurl:
 timezone:                  Europe/Luxembourg
 author:                    Thibault Milan
