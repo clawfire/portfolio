@@ -21,7 +21,7 @@ Well, after upgrading Google File Stream to Google Drive and launching it, you g
 
 This tells you that you need to authorize some sub-program from Google Drive to run. Since a couple of major versions of Mac OS, Apple now enforce app to be signed or delivered from the Mac App Store to be run without any message. Google chose not to do it (they did do just a self-signature; in fact, which requires you to approve the first run), so that's why you need to confirm the first run.
 
-But, apparently, Google reuse the same app id (`com.google.drive`) so mac OS doesn't display any authorization into the Privacy and Security panel. I thought at first of some app cache issues, but I did remove and clean the leftover of the app and reinstall it to have the same issues.
+But, apparently, Google reuses the same app id (_com.google.drive_), so mac OS doesn't display any authorization into the Privacy and Security panel. I thought at first of some app cache issues, but I did remove and clean the leftover of the app and reinstall it to have the same issues.
 
 ## How to fix it?
 
@@ -33,4 +33,6 @@ It's pretty straightforward but doesn't feel right at first. Let me explain.
 4. The app should restart. If not, close it and re-open it.
 5. Log in back
 6. The app should restart.
-7. It works! 
+7. It works!
+
+Why all of this is working? I don't know to be honest. Ghost in the shell, maybe? I suspect there's some server-side configuration at Google which the app load and your account seem using an old configuration for Google File Stream and not Google Drive. 
