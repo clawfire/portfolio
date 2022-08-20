@@ -257,6 +257,12 @@
       }
     }
   }
+  .post__comments{
+    margin-bottom: 80px;
+    .fad{
+      color: var(--accent,$accent-color);
+    }
+  }
 
   @include mq(tabletp) {
     .post__header {
