@@ -4,7 +4,7 @@ layout: default
 <div class="page-post">
 
 	<header class="post__header header--single">
-		
+
 		<div class="wrap">
 			<h1 class="post__title">{{ page.title }}</h1>
 			<time class="post__date label">{{ page.date | date_to_long_string }}</time>
@@ -21,6 +21,12 @@ layout: default
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
 				{{ page.content }}
 			</article>
+
+      <section class="post__comments">
+        <h2><i class="fad fa-comments"></i> Comments</h2>
+        <script defer src="https://c.thibau.lt/js/commento.js"></script>
+        <div id="commento"></div>
+      </section>
 
 			<div class="post__more grid">
 				{% if page.previous.url %}
