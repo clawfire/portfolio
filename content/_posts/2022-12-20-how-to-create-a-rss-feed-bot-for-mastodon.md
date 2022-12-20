@@ -56,9 +56,8 @@ Obviously you can adapt this with any kind of trigger you want, thanks to the po
 
 I put under the ressources to the Creos open-data on the Luxembourgish portal, and my reuse. If you wanna check on it 😃.
 
-<div data-udata-dataset="63a1c7fc95d5ae2ad821ede7"></div><script src="https://data.public.lu/static/oembed.js" async defer></script>
-
-<div data-udata-reuse="63a1c95595d5ae2ad821ede8"></div><script src="https://data.public.lu/static/oembed.js" async defer></script>
+* [StroumMonitor, la météo de l'électricité pour une consommation responsable](https://data.public.lu/fr/datasets/stroummonitor-la-meteo-de-lelectricite-pour-une-consommation-responsable/)
+* [StroumMonitor Mastodon Bot](https://data.public.lu/fr/reuses/stroummonitor-mastodon-bot/)
 
 **Disclamer**
 IFTT Link  are referral, I’ll get 10% off my subscription if and only if you subscribe for a paid plan.
