@@ -32,7 +32,9 @@ Okay so, here’s the deal. My favorite service to do that would have been [Zapi
 
 Let’s click « Create »
 ![](/img/2022/12/ef83f08a-460a-4568-8a2a-5bdb385d25e1.png)
+
 And choose **RSS** for the « If This » part
+
 ![](/img/2022/12/3b732382-6a64-4d2c-a170-e0a2d6d41379.png)
 
 Then « New feed item » and paste the RSS url  `https://www.creos-net.lu/rss/stroumMonitor` and click « Create trigger »
