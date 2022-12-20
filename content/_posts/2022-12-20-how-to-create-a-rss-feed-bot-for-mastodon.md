@@ -31,6 +31,7 @@ You now have the application created, and on the details you can see App ID, Sec
 Okay so, here’s the deal. My favorite service to do that would have been [Zapier](https://zapier.com/). Unfortunately, using Webhooks to post content on Mastodon is a premium feature. While I do have a premium account, I want to show you how to do it for free. So we gonna use the more simple platform [IFTTT](https://ifttt.com/join?referral_code=DPqXQkwEOeVzx-z84a8IlV8il7veJg6P) .
 
 Let’s click « Create »
+
 ![](/img/2022/12/ef83f08a-460a-4568-8a2a-5bdb385d25e1.png)
 
 And choose **RSS** for the « If This » part
@@ -40,6 +41,7 @@ And choose **RSS** for the « If This » part
 Then « New feed item » and paste the RSS url  `https://www.creos-net.lu/rss/stroumMonitor` and click « Create trigger »
 
 ![](/img/2022/12/9454416e-d793-4eef-b007-251e0c37e8c8.png)
+
 Now select Add in the « Then That »  part and choose  **Webhooks** and « Make a web request ».  Now fill those fields like instructed below:
 
 * **URL** is `[your instance url]/api/v1/statuses?access_token=[the access token we talked before]`. In my case it’s then `https://m.thibau.lt/api/v1/statuses?access_token=[mytoken]`
