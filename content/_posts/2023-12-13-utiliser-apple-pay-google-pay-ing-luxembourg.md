@@ -24,7 +24,7 @@ Le point fort de cette banque réside dans son application de webbanking, unanim
 
 Mais Curve ne s'arrête pas là. Il propose également des fonctionnalités intelligentes, telles que la possibilité de définir des règles de routage spécifiques. Par exemple, vous pouvez configurer Curve pour qu'il utilise automatiquement votre carte de crédit pour les transactions supérieures à 200€, optimisant ainsi la gestion de vos dépenses et de votre budget. De plus, toutes les transactions effectuées avec votre carte Curve sont instantanément catégorisées et suivies dans l'application, offrant une visibilité claire sur vos finances.
 
-Pour les clients d'ING Luxembourg, Curve représente plus qu'une simple commodité ; c'est une porte d'entrée vers les paiements mobiles modernes. **En ajoutant vos cartes ING à Curve, vous pouvez les rendre instantanément compatibles avec Apple Pay et Google Pay**, contournant ainsi les limitations actuelles de la banque en termes de paiement mobile. Enfin, pour les lecteurs intéressés à explorer Curve, je partage [ici un lien d'inscription][affiliate], qui vous permettra de découvrir par vous-même les avantages de cette plateforme.
+Pour les clients d'ING Luxembourg, Curve représente plus qu'une simple commodité ; c'est une porte d'entrée vers les paiements mobiles modernes. **En ajoutant vos cartes ING à Curve, vous pouvez les rendre instantanément compatibles avec Apple Pay et Google Pay**, contournant ainsi les limitations actuelles de la banque en termes de paiement mobile. Enfin, pour les lecteurs intéressés à explorer Curve, je partage [ici un lien d'inscription][affiliate] (programme de recommendation[^1]), qui vous permettra de découvrir par vous-même les avantages de cette plateforme.
 
 ## Intégration d’ING avec Apple Pay et Google Pay
 
@@ -57,4 +57,6 @@ En résumé, **Curve offre une solution élégante et pratique pour combler le f
 
 Je vous encourage à explorer cette option et à découvrir par vous-même les avantages qu'elle peut offrir. N'hésitez pas à partager vos expériences et vos conseils dans les commentaires ci-dessous, et si vous êtes prêt à essayer Curve, pensez à utiliser le lien d'inscription partagé plus tôt dans cet article.
 
+**Disclaimer:** Le lien de 
 [affiliate]: https://www.curve.com/join#BGO1N
+[^1]: Programme d'invitation, si vous faites 5 transactions de plus de 5€ j'obtiendrais 5€.
