@@ -57,6 +57,5 @@ En résumé, **Curve offre une solution élégante et pratique pour combler le f
 
 Je vous encourage à explorer cette option et à découvrir par vous-même les avantages qu'elle peut offrir. N'hésitez pas à partager vos expériences et vos conseils dans les commentaires ci-dessous, et si vous êtes prêt à essayer Curve, pensez à utiliser le lien d'inscription partagé plus tôt dans cet article.
 
-**Disclaimer:** Le lien de 
 [affiliate]: https://www.curve.com/join#BGO1N
 [^1]: Programme d'invitation, si vous faites 5 transactions de plus de 5€ j'obtiendrais 5€.
