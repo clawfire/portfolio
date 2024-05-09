@@ -1,0 +1,141 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "Blog Post",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "choice",
+          "choices": ["default","post","page","project", "talk", "nothing"],
+          "default": "post"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Featured Image",
+          "name": "featured_image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Is published",
+          "name": "published",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "img",
+  "frontMatter.preview.host": "http://localhost:4000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/content/_posts"
+    },
+    {
+      "path": "[[workspace]]/content/_pages",
+      "title": "Pages"
+    },
+    {
+      "title": "Projets",
+      "path": "[[workspace]]/content/_projects"
+    }
+  ],
+  "frontMatter.git.enabled": true,
+  "frontMatter.git.requiresCommitMessage": [
+    "main"
+  ],
+  "frontMatter.content.snippets": {
+    "Video Embed": {
+      "description": "Embed a video iFrame into the page",
+      "body": [
+        "{% include post-components/video.html",
+        "\turl = \"[[iframe_url]]\"",
+        "\tfull_width = [[fullwidth]]",
+        "%}"
+      ],
+      "fields": [
+        {
+          "name": "iframe_url",
+          "type": "string"
+        },
+        {
+          "name": "fullwidth",
+          "type": "choice",
+          "choices": [
+            "true",
+            "false"
+          ],
+          "default": "true"
+        }
+      ],
+      "isMediaSnippet": false
+    },
+    "Picture Gallery": {
+      "description": "Insert a picture gallery",
+      "body": [
+        "{% include post-components/gallery.html",
+        "\tcolumns = [[column_nb]",
+        "\tfull_width = [[fullsize]]",
+        "\timages = \"[[&mediaUrl]]\"",
+        "%}"
+      ],
+      "fields": [
+        {
+          "name": "column_nb",
+          "type": "choice",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "default": "3"
+        },
+        {
+          "name": "fullsize",
+          "type": "choice",
+          "choices": [
+            "true",
+            "false"
+          ],
+          "default": "true"
+        }
+      ],
+      "isMediaSnippet": true
+    }
+  }
+}
