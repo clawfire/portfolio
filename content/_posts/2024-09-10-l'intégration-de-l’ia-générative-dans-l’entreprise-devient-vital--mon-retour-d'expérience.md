@@ -18,7 +18,7 @@ keywords:
 ---
 
 
-At [Smile](https://smile.eu), innovation is at the heart of our DNA. As a technology company, we are constantly seeking solutions that not only increase our competitiveness but also improve the efficiency and satisfaction of our teams. It is in this spirit that we have recently explored the integration of large language models (LLM) for our developers. This article follows Alejandro Reyes Amaro's article on optimizing developer productivity with Azure Document Intelligence and Open AI services and details our feedback (REX) on this bold initiative, the methods we employed, the results obtained, and the lessons we learned.
+At [Smile](https://smile.eu), innovation is at the heart of our DNA. As a technology company, we are constantly seeking solutions that not only increase our competitiveness but also improve the efficiency and satisfaction of our teams. It is in this spirit that we have recently explored the integration of large language models (LLM) for our developers. This article details our feedback (REX) on this bold initiative, the methods we employed, the results obtained, and the lessons we learned.
 
 ## Why did we explore the use of LLM for developers?
 
