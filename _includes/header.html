@@ -18,7 +18,7 @@
 		<nav class="header__menu">
 			<div class="menu__wrap">
 				<ul class="menu__list">
-					{% for item in site.menus.header %}
+					{% for item in site.data.menus.header %}
 					<li class="menu__list__item">
 						<a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text" title="Go to {{ item.title }}">{{ item.title }}</a>
 					</li>
