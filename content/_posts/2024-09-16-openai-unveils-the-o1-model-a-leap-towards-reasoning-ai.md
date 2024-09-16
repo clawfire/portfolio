@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI Unveils the o1 Model: A Leap Towards Reasoning AI"
 description: Explore OpenAI's o1 model launch, enhancing AI reasoning with advanced 'chain of thought' capabilities for complex problem-solving.
 date: 2024-09-16T08:57:43.116Z
-featured_image: /2024/09/OpenAI o1 preview.webp
+featured_image: "/img/2024/09/OpenAI o1 preview.webp"
 published: true
 tags:
   - openAI
