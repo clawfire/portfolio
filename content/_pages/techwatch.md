@@ -1,18 +1,15 @@
 ---
 title: Techwatch
 subtitle: My tech watch delivered right into your inbox, every 2 weeks or so.
-description: ''
-featured_image: "/img/2020/04/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg"
-menu:
-  header:
-    weight: 3
-
+description: ""
+featured_image: /img/2020/04/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg
+fmContentType: Page
 ---
 Started a little bit before joining Smile, I started doing some curation on my tech watch online and started to publish it [on GetRevue](https://www.getrevue.co/profile/thibault). The topics could be from nerdy stuff to very marketing elements. And I tried to update the people with the stuff happening in my pro / personal life.
 
-When I got my new position of _Innovation Evangelist_ at Smile, and having the opportunity to design my job, I integrated this tech watch to my work. Starting with only internal newsletter + posting on [Innovation's Squad Medium](https://medium.com/smileinnovation). The rhythm increased significantly and reach 2 publication per month. We opened a dedicated list on our Mailchimp after 6 months and you can [subscribe to my Techwatch at Smile](http://eepurl.com/dM4NAM) for free. 
+When I got my new position of _Innovation Evangelist_ at Smile, and having the opportunity to design my job, I integrated this tech watch to my work. Starting with only internal newsletter + posting on [Innovation's Squad Medium](https://medium.com/smileinnovation). The rhythm increased significantly and reach 2 publication per month. We opened a dedicated list on our Mailchimp after 6 months and you can [subscribe to my Techwatch at Smile](http://eepurl.com/dM4NAM) for free.
 
-If you want, you can get [the past issue list of what I published](https://us18.campaign-archive.com/home/?u=4d3484a4e4a58a42c2bc028f5&id=7db7ed73c3) on Mailchimp for Smile but, as I said, [it's available on Medium](https://medium.com/smileinnovation) too. 
+If you want, you can get [the past issue list of what I published](https://us18.campaign-archive.com/home/?u=4d3484a4e4a58a42c2bc028f5&id=7db7ed73c3) on Mailchimp for Smile but, as I said, [it's available on Medium](https://medium.com/smileinnovation) too.
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -37,5 +34,5 @@ If you want, you can get [the past issue list of what I published](https://us18.
 		<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 	</div>
 	</form>
-</div>        
+</div>
 <!--End mc_embed_signup-->
