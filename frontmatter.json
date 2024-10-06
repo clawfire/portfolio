@@ -10,7 +10,14 @@
           "title": "Layout",
           "name": "layout",
           "type": "choice",
-          "choices": ["default","post","page","project", "talk", "nothing"],
+          "choices": [
+            "default",
+            "post",
+            "page",
+            "project",
+            "talk",
+            "nothing"
+          ],
           "default": "post"
         },
         {
@@ -51,6 +58,46 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        }
+      ]
+    },
+    {
+      "name": "Page",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "choice",
+          "choices": [
+            "default",
+            "post",
+            "page",
+            "project",
+            "talk",
+            "nothing"
+          ],
+          "default": "page"
+        },
+        {
+          "title": "subtitle",
+          "name": "subtitle",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "featured_image",
+          "name": "featured_image",
+          "type": "image"
         }
       ]
     }
