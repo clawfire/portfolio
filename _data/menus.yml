@@ -6,3 +6,5 @@ header:
   title:  Projects
 - url:    "/talks/"
   title:  Talks
+- url:    "/faq/"
+  title:  "FAQ"
