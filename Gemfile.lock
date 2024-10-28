@@ -15,18 +15,14 @@ GEM
     faraday-net_http (3.3.0)
       net-http
     ffi (1.17.0-aarch64-linux)
-    ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux)
-    ffi (1.17.0-arm-linux-gnu)
     ffi (1.17.0-arm-linux-musl)
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86-linux)
-    ffi (1.17.0-x86-linux-gnu)
     ffi (1.17.0-x86-linux-musl)
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux)
-    ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.4)
@@ -88,20 +84,14 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rexml (3.3.7)
+    rexml (3.3.9)
     rouge (4.3.0)
     safe_yaml (1.0.5)
     sass-embedded (1.69.5-aarch64-linux)
       google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-aarch64-linux-android)
-      google-protobuf (~> 3.23)
     sass-embedded (1.69.5-aarch64-linux-musl)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.5-arm-linux)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-arm-linux-androideabi)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-arm-linux-gnueabihf)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.5-arm-linux-musleabihf)
       google-protobuf (~> 3.23)
@@ -109,15 +99,11 @@ GEM
       google-protobuf (~> 3.23)
     sass-embedded (1.69.5-x86-linux)
       google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-x86-linux-android)
-      google-protobuf (~> 3.23)
     sass-embedded (1.69.5-x86-linux-musl)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.5-x86_64-darwin)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.5-x86_64-linux)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-x86_64-linux-android)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.5-x86_64-linux-musl)
       google-protobuf (~> 3.23)
@@ -133,22 +119,18 @@ GEM
 PLATFORMS
   aarch64-linux
   aarch64-linux
-  aarch64-linux-android
   aarch64-linux-musl
   arm-linux
   arm-linux
-  arm-linux-androideabi
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
   x86-linux
   x86-linux
-  x86-linux-android
   x86-linux-musl
   x86_64-darwin
   x86_64-linux
   x86_64-linux
-  x86_64-linux-android
   x86_64-linux-musl
 
 DEPENDENCIES
