@@ -2,6 +2,82 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
+      "name": "Event",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Language",
+          "name" : "language",
+          "type": "choice",
+          "choices": [
+            "en",
+            "fr"
+          ],
+          "default": "en"
+        },
+        {
+          "title": "is Published",
+          "name": "published",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Category",
+          "name": "category",
+          "type": "categories",
+          "default": "talks"
+        },
+        {
+          "title": "Date du talk",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Titre du talk",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string",
+          "wysiwyg": "markdown"
+        },
+        {
+          "title": "Image de l'événement",
+          "name": "featured_image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Lien de l'évènement",
+          "name": "event_link",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Location",
+          "name": "location",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Nom",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "title": "URL",
+              "name": "url",
+              "type": "string",
+              "single": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Blog Post",
       "pageBundle": false,
       "previewPath": null,
@@ -23,12 +99,14 @@
         {
           "title": "Title",
           "name": "title",
-          "type": "string"
+          "type": "string",
+          "single": true
         },
         {
           "title": "Description",
           "name": "description",
-          "type": "string"
+          "type": "string",
+          "wysiwyg": "markdown"
         },
         {
           "title": "Publishing date",
@@ -68,7 +146,8 @@
         {
           "title": "title",
           "name": "title",
-          "type": "string"
+          "type": "string",
+          "single": true
         },
         {
           "title": "Layout",
@@ -92,12 +171,14 @@
         {
           "title": "description",
           "name": "description",
-          "type": "string"
+          "type": "string",
+          "wysiwyg": "markdown"
         },
         {
           "title": "featured_image",
           "name": "featured_image",
-          "type": "image"
+          "type": "image",
+          "isPreviewImage": true
         }
       ]
     }
