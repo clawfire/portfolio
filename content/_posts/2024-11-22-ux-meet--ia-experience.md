@@ -13,20 +13,24 @@ location:
   url: https://maps.app.goo.gl/smoCdLwCiVYQMRYd7
 fmContentType: Event
 ---
-Le 12 décembre 2024, UX-Republic et l'École 42 vous invitent à explorer l'impact de l’intelligence artificielle sur l’expérience utilisateur à Paris. En tant décideurs, spécialistes et passionnés du design et du digital, vous serez au cœur des discussions sur l'avenir du design, des processus créatifs et des synergies entre IA et UX.
+Je suis ravi de vous annoncer ma participation à un événement passionnant, UX-MEET : IA Experience, qui se tiendra **le 12 décembre** à la célèbre **École 42 à Paris**. Cet événement est une occasion unique d'explorer le pouvoir transformateur de l'intelligence artificielle dans le domaine de l'expérience utilisateur.
 
-Avec environ 200 participants attendus, cette soirée vous permettra de participer à des Insights inspirants, de vous inspirer à un Panel d’experts, et d’échanger autour d’un cocktail dînatoire.
+## Pourquoi Participer ?
 
-Vous repartirez avec des idées concrètes pour transformer vos projets grâce à l’IA et des connexions précieuses pour vos futurs défis UX.
+UX-MEET : IA Experience promet d'être une soirée enrichissante où des leaders du secteur partageront leurs idées et expériences sur la manière dont l'IA redéfinit les pratiques UX. Des études de cas aux perspectives tournées vers l'avenir, cet événement offrira un aperçu complet du rôle de l'IA dans le design et l'interaction utilisateur.
 
-## Pourquoi participer ?
+## Les Temps Forts de l'Événement
 
-UX-MEET : IA Experience est l’occasion d’explorer comment l’intelligence artificielle transforme les pratiques de l’expérience utilisateur. Vous découvrirez des cas concrets, des retours d’expérience inspirants et des perspectives d’avenir.
+* **Conférenciers de Renom** : Nous écouterons des experts tels que Cyrille Magnetto, VP Innovation, et Julien Clément, Directeur du Design et de l'Expérience Client chez Carrefour France et Groupe, entre autres.
+* **Table Ronde** : Une discussion stimulante sur "Comment l'IA redéfinit le design aujourd'hui et demain", animée par la journaliste Barbara Haddad.
+* **Opportunité de Networking** : Engagez-vous avec d'autres passionnés d'UX et leaders du secteur lors du cocktail dinatoire.
 
-## Les temps forts
+## Ma Contribution
 
-3 conférences de 20 minutes, présentées par des leaders du design et de l’IA
-Une table ronde sur le thème : "Comment l'IA redéfinit le design aujourd'hui et demain ?"
-Un cocktail dinatoire pour échanger et réseauter avec des experts, des passionnés et des leaders du secteur
+Je présenterai sur la méthodologie de déploiement de l'IA dans les entreprises, en mettant l'accent sur la gestion du changement. Ce sujet est crucial alors que les entreprises naviguent entre les défis et les opportunités présentés par l'intégration de l'IA. Je partagerai des stratégies et des idées sur comment gérer efficacement le changement et exploiter le potentiel de l'IA pour améliorer les expériences utilisateur.
 
-[Réservez votre place dès maintenant](https://info.smile.eu/ux-meet-ia-experience) ! (Inscription gratuite mais nombre de places limité)
+## Réservez Votre Place
+
+L'événement est gratuit, mais les places sont limitées, alors assurez-vous de [réserver votre place tôt](https://info.smile.eu/ux-meet-ia-experience). J'ai hâte de vous y voir et d'échanger des idées sur l'avenir de l'UX et de l'IA.
+
+N'hésitez pas à me contacter si vous avez des questions ou besoin de plus d'informations. Faisons de cette soirée une source d'inspiration !
