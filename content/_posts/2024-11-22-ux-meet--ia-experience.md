@@ -6,7 +6,7 @@ date: 2024-12-12T16:30:00.000Z
 title: "UX-MEET : IA Experience"
 description: |
   L'événement incontournable pour les leaders de l'UX et du design.
-featured_image: "img/2024/11/Header (3).png"
+featured_image: img/2024/11/UX Meet IA Experience.png
 event_link: https://info.smile.eu/ux-meet-ia-experience
 location:
   name: Ecole 42
