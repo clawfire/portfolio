@@ -36,6 +36,8 @@ A recurring theme throughout the presentations was the emphasis on human-centere
 
 The atmosphere was electric with optimism as attendees discovered how AI could streamline routine tasks and open new possibilities for innovation in UX design. This wasn't just another technical conference; it was a gathering of professionals eager to embrace AI as a powerful ally in their creative process, while maintaining the human touch that makes UX design truly impactful.
 
+![Thibault Milan speaking at a conference in Paris](/img/2025/01/Thibault%20Milan%20speaking%20at%20a%20conference.jpeg)
+
 ## My talk: How to fix AI adoption in your company?
 
 [My presentation](https://speakerdeck.com/thibaultmilan/ux-meet-how-to-fix-ai-adoption-in-your-company) focused on the nuanced journey of adopting AI within organizations. The talk, titled "How to Fix AI Adoption in Your Company," underscored the importance of a strategic and measured approach to integrating AI technologies. Drawing from my experience leading the "LLM4Dev" study at Smile - a six-month experimental initiative to select and implement AI tools for developers - I demonstrated how careful experimentation leads to tangible results. This pilot, which is now in its rollout phase, has already shown measurable gains in developer productivity and provides clear metrics on return on investment.
@@ -53,14 +55,16 @@ Lastly, I addressed the vital role of change management in AI adoption. By foste
 - **Share and Learn:** Engage in open discussions about your AI experiments to position your brand as a leader in innovation, facilitating valuable exchanges with peers.
 - **Consider the Bigger Picture:** Look for AI solutions that offer benefits at every level of the organization. Integrate them into daily processes for enhanced efficiency.
 
+![Thibault Milan speaking at a conference in Paris](/img/2025/01/Thibault%20Milan%20speaking%20at%20a%20conference%20in%20Paris.jpeg)
+
 ## A Journey of Discovery: Personal Insights from the Event
 
-Reflecting on the "UX-Meet: IA Experience," I found myself truly inspired by the wealth of knowledge and creativity shared by the speakers. One of the standout moments for me was [Cesar Miguel](https://www.linkedin.com/in/cesarmiguel/)'s (CPO of 42 School Paris) engaging live demonstration on using AI to _not write_ code. This experiment-driven approach highlighted the fun and innovative spirit of AI and showcased its potential to empower individuals and small teams with limited resources. The way 42 School integrates this into their educational model, fostering a dynamic and collaborative environment among students, was particularly fascinating.
+Reflecting on the "_UX-Meet: IA Experience_," I found myself truly inspired by the wealth of knowledge and creativity shared by the speakers. One of the standout moments for me was [Cesar Miguel](https://www.linkedin.com/in/cesarmiguel/)'s (CPO of 42 School Paris) engaging live demonstration on using AI to _not write_ code. This experiment-driven approach highlighted the fun and innovative spirit of AI and showcased its potential to empower individuals and small teams with limited resources. The way 42 School integrates this into their educational model, fostering a dynamic and collaborative environment among students, was particularly fascinating.
 
 Another highlight was [Cyrille Magnetto](https://www.linkedin.com/in/cyrillemagnetto/) (VP Innovation at AXA), whose presentation was packed with insightful use cases and feedback on implementing Generative AI within his team. His depth of knowledge and enthusiasm for the subject were contagious, and I found myself wishing his talk could continue for hours. Cyrille's work is something to monitor closely, and I hope to bring him to Luxembourg for a future AI conference.
 
-I must also commend all the other speakers who contributed their expertise and perspectives, enriching the event with diverse insights. A special thanks to my colleagues at UX Republic for organizing such a well-executed and thought-provoking affair. Their efforts in bringing together a community of innovators made the "UX-Meet: IA Experience" a memorable occasion.
+I must also commend all the other speakers who contributed their expertise and perspectives, enriching the event with diverse insights. A special thanks to my colleagues at UX Republic for organizing such a well-executed and thought-provoking affair. Their efforts in bringing together a community of innovators made the "_UX-Meet: IA Experience_" a memorable occasion.
 
 ---
 
-UX-Meet: AI Experience" demonstrated the transformative impact of AI on UX design. The event highlighted the importance of thoughtful AI adoption to maximize its benefits. The exchanges confirmed the essential role of collaboration in the evolution of AI technologies. I'm enthusiastic about AI's potential to enhance user experience and optimize resources for small teams. I plan to apply these learnings in my work and maintain dialogue with this dynamic community to collectively address future challenges of AI in UX design.
+"_UX-Meet: AI Experience_" demonstrated the transformative impact of AI on UX design. The event highlighted the importance of thoughtful AI adoption to maximize its benefits. The exchanges confirmed the essential role of collaboration in the evolution of AI technologies. I'm enthusiastic about AI's potential to enhance user experience and optimize resources for small teams. I plan to apply these learnings in my work and maintain dialogue with this dynamic community to collectively address future challenges of AI in UX design.
