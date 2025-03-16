@@ -171,6 +171,13 @@
 
   .menu__list__item {
     margin-bottom: 24px;
+    position: relative; // Required for submenu positioning
+
+    &:hover .menu__sublist {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
   }
 
   .menu__list__item__link,
@@ -186,8 +193,34 @@
     }
   }
 
-  .menu__cta__link {
-    color: $accent-color;
+  .menu__sublist {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $background-color;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    min-width: 220px; // Set a minimum width for the submenu
+    width: auto; // Allow it to grow if content exceeds the minimum width
+
+    .menu__sublist__item {
+      margin: 0;
+
+      .menu__sublist__item__link {
+        display: block;
+        padding: 8px 16px;
+        color: $text-dark-color;
+
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
   }
 
   @include mq(tabletp) {
@@ -196,7 +229,7 @@
 
     .menu__list__item {
       margin-bottom: 0px;
-      
+
       &:not(:first-child) {
         margin-left: 50px;
       }

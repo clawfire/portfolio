@@ -18,11 +18,20 @@
 		<nav class="header__menu">
 			<div class="menu__wrap">
 				<ul class="menu__list">
-					{% for item in site.data.menus.header %}
-					<li class="menu__list__item">
-						<a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text" title="Go to {{ item.title }}">{{ item.title }}</a>
-					</li>
-					{% endfor %}
+          {% for item in site.data.menus.header %}
+          <li class="menu__list__item {% if item.subitems %}has-submenu{% endif %}">
+            <a href="{{ item.url | relative_url }}" class="menu__list__item__link button--text" title="Go to {{ item.title }}">{{ item.title }}</a>
+            {% if item.subitems %}
+            <ul class="menu__sublist">
+              {% for subitem in item.subitems %}
+              <li class="menu__sublist__item">
+                <a href="{{ subitem.url | relative_url }}" class="menu__sublist__item__link button--text" title="Go to {{ subitem.title }}">{{ subitem.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
 					<li class="menu__cta">
 						<a href="#" class="menu__cta__link button--text contact-trigger js-contact">Get In Touch</a>
 					</li>
