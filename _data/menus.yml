@@ -8,3 +8,7 @@ header:
   title:  Talks
 - url:    "/faq/"
   title:  "FAQ"
+- title: "Services"
+  subitems:
+    - url: "/wordpress-services/"
+      title: "WordPress Services"
