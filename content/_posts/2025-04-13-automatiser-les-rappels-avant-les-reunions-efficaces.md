@@ -35,6 +35,8 @@ It helps **relieve the mental load** of having to chase context manually.
 
 ## ⚙️ How It Works
 
+[![Picture of my workflow](/img/2025/04/Screenshot-2025-04-13-16.37.47.png)](/img/2025/04/Screenshot-2025-04-13-16.37.47.png)
+
 Here’s how the **n8n workflow** is structured:
 
 1. **Trigger every morning at 7:30am**
