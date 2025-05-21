@@ -56,6 +56,12 @@ defaults:
       type:                "projects"
     values:
       layout:              "project"
+  - scope:
+      path:                ""
+      type:                "posts"
+      categories:          "talks"
+    values:
+      layout:              "talk"
 
 # Conversion
 markdown:                  kramdown
