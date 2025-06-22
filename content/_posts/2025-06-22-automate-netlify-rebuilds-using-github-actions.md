@@ -12,7 +12,7 @@ tags:
   - Static Site Generators
 categories: []
 fmContentType: Blog Post
-lastmod: 2025-06-22T18:00:34.071Z
+lastmod: 2025-06-22T18:01:38.523Z
 ---
 Static site generators like Jekyll or Eleventy support scheduling content via the `date:` field in the YAML frontmatter. But these future-dated posts won’t appear on your site unless it’s rebuilt — and Netlify only rebuilds when a new commit is pushed.
 
@@ -139,3 +139,5 @@ This setup ensures your Netlify site only rebuilds when a scheduled post becomes
 
 ---
 💡 This can be extended to multi-site, multi-branch setups, or even date queues using more advanced scheduling logic. But for a simple editorial workflow, it’s more than enough.
+
+Photo by [Tai Bui](https://unsplash.com/fr/@agforl24?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/fr/photos/un-ecran-dordinateur-pose-sur-un-bureau-IMYU7kmPLwI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
