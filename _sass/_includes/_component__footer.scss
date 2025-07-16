@@ -8,8 +8,13 @@
 	@include transition(all 0.4s ease-in-out 0.8s);
 	padding: 64px 0;
 
-	.footer__logo {
+	.footer__left {
 		justify-self: center;
+	}
+
+	.footer__logo {
+		display: block;
+		margin-bottom: 20px;
 	}
 
 	.footer__title {
@@ -33,6 +38,15 @@
 	    }
 	}
 	
+	.footer__climate-badge {
+		
+		iframe {
+			max-width: 100%;
+			height: auto;
+			vertical-align: top;
+		}
+	}
+
 	.footer__copyright {
 
 		@include mq(tabletp) {
@@ -53,12 +67,18 @@
 			grid-template-columns: 1fr 1fr;
 		}
 
-		.footer__logo {
+		.footer__left {
 			justify-self: start;
+			align-self: start;
 		}
 		
 		.footer__copyright {
 			justify-self: end;
+			align-self: start;
+		}
+		
+		.footer__climate-badge {
+			margin-top: 0;
 		}
 	}
 }
