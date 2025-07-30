@@ -3,7 +3,7 @@ language: en
 published: true
 category: talks
 date: 2025-09-23T06:45:00.000Z
-title: UX Design Thinking Workshop at LOIC
+title: UX Design Thinking Workshop at Luxembourg Open Innovation Club
 description: |
   Join our UX Design Thinking Workshop in Luxembourg on September 23, 2025, and discover how to drive innovation by putting user needs at the heart of your business. Learn practical methods and strategies from leading experts in UX and Design Thinking.
 featured_image: img/2025/07/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg
@@ -12,9 +12,9 @@ location:
   name: House of Startups
   url: https://houseofstartups.lu/
 fmContentType: Event
-lastmod: 2025-07-29T09:22:45.183Z
+lastmod: 2025-07-30T08:58:40.745Z
 ---
-On September 23, 2025, I’ll have the pleasure of co-facilitating a workshop dedicated to Design Thinking and UX at the House of Startups in the heart of Luxembourg. Organized in partnership with UX Republic, this event is for anyone eager to put users back at the center of innovation.
+On September 23, 2025, I’ll have the pleasure of co-facilitating a workshop dedicated to Design Thinking and UX at the Open Innovation Club of the House of Startups in the heart of Luxembourg. Organized in partnership with UX Republic, this event is for anyone eager to put users back at the center of innovation.
 
 ## Why join this workshop?
 
@@ -54,6 +54,8 @@ Whether you’re a manager, product owner, designer, or simply curious about new
 - Discover (or rediscover) Design Thinking through hands-on practice
 - Exchange ideas with experts and like-minded participants
 - Leave with concrete ideas to transform your projects
+
+Therefore, please note this event is strictly limited to the members of the Luxembourg Open Innovation Club. If you’re not yet a member, you can get more info on how to join [here](https://loic.lu/).
 
 ## Practical information
 
