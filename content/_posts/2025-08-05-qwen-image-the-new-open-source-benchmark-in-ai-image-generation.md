@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qwen-image : la nouvelle référence open-source en génération d’images IA ?"
+title: "Qwen-image: The New Open-Source Benchmark in AI Image Generation?"
 description: Qwen-image by Alibaba is shaking up AI image generation. See how it compares to DALL·E, GPT-Image-1 and Google's Imagen — architecture, benchmarks, and why open-source matters.
 date: 2025-08-05T08:19:58.600Z
 featured_image: img/2025/08/merge3.jpg
@@ -8,7 +8,7 @@ published: true
 tags: []
 categories: []
 fmContentType: Blog Post
-lastmod: 2025-08-05T08:33:00.943Z
+lastmod: 2025-08-05T08:36:32.451Z
 ---
 
 The landscape of image generation through artificial intelligence is evolving at lightning speed, and the arrival of **Qwen-image**, unveiled by Alibaba Cloud, could seriously shake things up. In a field so far dominated by **OpenAI** (with *DALL·E* and *GPT-Image-1*) and **Google** (with *Imagen*), this new model impresses with both its **performance** and its **accessibility**.
