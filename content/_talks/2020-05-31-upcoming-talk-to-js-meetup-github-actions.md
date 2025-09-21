@@ -9,7 +9,6 @@ location:
   name: JS Luxembourg (online)
   url: 
 event_link: https://www.meetup.com/luxembourgjs/events/270910908/
-category: talks
 language: en
 ---
 On Wednesday, July 1, 2020

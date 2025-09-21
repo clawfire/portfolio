@@ -1,7 +1,6 @@
 ---
 language: fr
 published: true
-category: talks
 date: 2024-11-27T10:45:00.000Z
 title: Transformez la performance de vos équipes avec l'IA Gen
 description: |

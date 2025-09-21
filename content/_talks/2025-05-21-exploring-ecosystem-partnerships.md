@@ -1,7 +1,6 @@
 ---
 language: en
 published: true
-category: talks
 date: 2025-05-15T06:45:00.000Z
 title: Exploring Ecosystem Partnerships
 description: |

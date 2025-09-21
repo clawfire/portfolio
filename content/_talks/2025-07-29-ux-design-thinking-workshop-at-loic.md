@@ -1,7 +1,6 @@
 ---
 language: en
 published: true
-category: talks
 date: 2025-09-23T06:45:00.000Z
 title: UX Design Thinking Workshop at Luxembourg Open Innovation Club
 description: |

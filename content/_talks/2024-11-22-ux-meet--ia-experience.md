@@ -1,7 +1,6 @@
 ---
 language: fr
 published: true
-category: talks
 date: 2024-12-12T16:30:00.000Z
 title: "UX-MEET : IA Experience"
 description: |

@@ -1,7 +1,6 @@
 ---
 language: fr
 published: true
-category: talks
 layout: talk
 date: 2021-02-25 08:00:00 +0100
 title: "#nocode Thursday: Mes petites plantes"
