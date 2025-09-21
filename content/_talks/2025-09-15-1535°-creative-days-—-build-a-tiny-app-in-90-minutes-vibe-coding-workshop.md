@@ -1,7 +1,6 @@
 ---
 language: en
 published: true
-category: talks
 date: 2025-10-12T12:00:00.000Z
 title: 1535° Creative Days — Build a tiny app in 90 minutes (vibe coding workshop)
 description: I’m hosting a participative workshop at 1535° Creative Days where we’ll build a small, real app in 90 minutes using vibe coding — AI as a coding pair, you stay in control. We’ll be transparent about the limits and when bespoke engineering becomes the smarter path.

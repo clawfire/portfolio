@@ -1,7 +1,6 @@
 ---
 language: fr
 published: true
-category: talks
 layout: talk
 date: 2021-03-11 20:00:00 +0100
 title: "#nocode Thursday: Simple contact tracing"

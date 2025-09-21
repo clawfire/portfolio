@@ -1,7 +1,6 @@
 ---
 language: fr
 published: true
-category: talks
 layout: talk
 date: 2021-04-08 21:00:00 +0200
 title: "#nocode Thursday: Eurovision Song Contest"

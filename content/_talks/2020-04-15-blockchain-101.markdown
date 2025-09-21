@@ -9,7 +9,6 @@ location:
   name: Smile
   url: https://smile.eu
 event_link: https://www.smile.eu/fr/groupeevenements/quick-talk-tech-smile
-category: talks
 language: fr
 ---
 

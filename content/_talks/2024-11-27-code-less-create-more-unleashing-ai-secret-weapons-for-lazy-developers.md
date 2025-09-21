@@ -1,7 +1,6 @@
 ---
 language: en
 published: true
-category: talks
 date: 2024-12-06T15:20:00.000Z
 title: "Code Less, Create More: Unleashing AI Secret Weapons for Lazy(?) Developers!"
 description: ""

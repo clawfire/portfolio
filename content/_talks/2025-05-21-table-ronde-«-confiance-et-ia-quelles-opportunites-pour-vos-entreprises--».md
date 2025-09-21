@@ -1,7 +1,6 @@
 ---
 language: fr
 published: true
-category: talks
 date: 2025-06-03T07:00:00.000Z
 title: "Table ronde « Confiance et IA : opportunités pour les entreprises »"
 description: |

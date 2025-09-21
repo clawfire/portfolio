@@ -35,6 +35,9 @@ collections:
   projects:
     output:                true
     permalink:             /:collection/:slug
+  talks:
+    output:                true
+    permalink:             /talks/:slug
 
 # Defaults for each collection type
 defaults:
@@ -59,8 +62,7 @@ defaults:
       layout:              "project"
   - scope:
       path:                ""
-      type:                "posts"
-      categories:          "talks"
+      type:                "talks"
     values:
       layout:              "talk"
 
