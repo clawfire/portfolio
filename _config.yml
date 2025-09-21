@@ -6,6 +6,7 @@ description:               Find out what I've been up through my latest tech pos
 baseurl:
 timezone:                  Europe/Luxembourg
 author:                    Thibault Milan
+accent_color:             "#066464"
 
 # Feed configuration
 feed:
