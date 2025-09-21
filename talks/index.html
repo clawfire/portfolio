@@ -21,29 +21,48 @@ pagination:
     <div class="wrap">
       <div class="posts__list grid">
         {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-        {% for post in paginator.posts %}
-        {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-        {% if posttime > nowunix %}
+
+        {% comment %} Separate future and past talks {% endcomment %}
+        {% assign future_talks = site.talks | sort: 'date' %}
+        {% assign past_talks = site.talks | sort: 'date' | reverse %}
+
+        {% comment %} Show future talks first (oldest to newest) {% endcomment %}
+        {% for talk in future_talks %}
+        {% capture talktime %}{{talk.date | date: '%s'}}{% endcapture %}
+        {% if talktime > nowunix %}
         <article class="post post-new">
           <div class="grid">
-            <a href="{{ post.url | relative_url }}">
-              <div class="post__image post__image--new" style="background-image: url({{ post.featured_image | relative_url }})">
+            <a href="{{ talk.url | relative_url }}">
+              <div class="post__image post__image--new" style="background-image: url({{ talk.featured_image | relative_url }})">
               </div>
             </a>
 
             <div class="post__content-wrap">
               <div class="post__content">
-                <time class="post__date label--small">{{ post.date | date: "%B %d, %Y" }}</time>
-                <h2 class="post__title h4"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-                <p class="post__subtitle">{{ post.subtitle }}</p>
-                <p class="post__description">{{ post.description }}</p>
-                <a href="{{ post.url | relative_url }}" class="post__link button--text--accent --right">Keep Reading</a>
+                <time class="post__date label--small">{{ talk.date | date: "%B %d, %Y" }}</time>
+                <h2 class="post__title h4"><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></h2>
+                <p class="post__subtitle">{{ talk.subtitle }}</p>
+                <p class="post__description">{{ talk.description }}</p>
+                <a href="{{ talk.url | relative_url }}" class="post__link button--text--accent --right">Keep Reading</a>
               </div>
             </div>
           </div>
         </article>
-        {% else %}
-        {% include component__post-preview.html %}
+        {% endif %}
+        {% endfor %}
+
+        {% comment %} Show past talks (newest to oldest) {% endcomment %}
+        {% for talk in past_talks %}
+        {% capture talktime %}{{talk.date | date: '%s'}}{% endcapture %}
+        {% if talktime <= nowunix %}
+        <article class="post__card">
+          <a href="{{ talk.url | relative_url }}" class="post__link">
+            <div class="post__image" style="background-image: url({{ talk.featured_image | relative_url }})">
+            </div>
+            <time class="post__date label--small">{{ talk.date | date: "%B %d, %Y" }}</time>
+            <h5 class="post__title subtitle">{{ talk.title }}</h5>
+          </a>
+        </article>
         {% endif %}
         {% endfor %}
       </div>
