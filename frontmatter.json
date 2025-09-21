@@ -8,7 +8,7 @@
       "fields": [
         {
           "title": "Language",
-          "name" : "language",
+          "name": "language",
           "type": "choice",
           "choices": [
             "en",
@@ -179,6 +179,65 @@
           "name": "featured_image",
           "type": "image",
           "isPreviewImage": true
+        }
+      ]
+    },
+    {
+      "name": "Projet",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "subtitle",
+          "name": "subtitle",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "YYYY-MM-DD"
+        },
+        {
+          "title": "skills",
+          "name": "skills",
+          "type": "list"
+        },
+        {
+          "title": "techs",
+          "name": "techs",
+          "type": "list"
+        },
+        {
+          "title": "industry",
+          "name": "industry",
+          "type": "list"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "featured_image",
+          "name": "featured_image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "accent_color",
+          "name": "accent_color",
+          "type": "string"
+        },
+        {
+          "title": "gallery_images",
+          "name": "gallery_images",
+          "type": "image",
+          "multiple": true
         }
       ]
     }
