@@ -20,15 +20,15 @@ gallery_images:
   - /img/2025/09/Miss_Tourisme_Candidates_Admin.jpeg
   - /img/2025/09/Miss_Tourisme_User_management.jpeg
 fmContentType: Projet
-lastmod: 2025-09-21T13:04:25.736Z
+lastmod: 2025-09-21T13:28:04.675Z
 ---
-Yesterday was the Miss Tourisme Luxembourg election. Like previous years, I handled the online voting system — but this time I rebuilt it from the ground up. I moved away from a low‑code base (Glide) to a custom build on Lovable + Supabase + Postmark, “vibe‑coded” in two days. The goal wasn’t just to ship fast; it was to make the vote trustworthy, observable, and immediately usable on stage without any manual cleanup.
+Yesterday was the [Miss Tourisme Luxembourg](https://www.misstourismeluxembourg.lu/) election. Like previous years, I handled the online voting system — but this time I rebuilt it from the ground up. I moved away from a low‑code base ([Glide](https://www.glideapps.com/)) to a custom build on [Lovable](https://lovable.dev/invite/d33c6bee-647c-4581-8186-975070e0645f) + [Supabase](https://supabase.com/) + [Postmark](https://postmarkapp.com), “vibe‑coded” in two days. The goal wasn’t just to ship fast; it was to make the vote trustworthy, observable, and immediately usable on stage without any manual cleanup.
 Why change what “worked”? Because what “works” for a prototype can break under real‑world behavior. Over the years, we’ve had to scrub votes after the fact: disposable emails, “+alias” tricks, and creative ways to poke at Glide’s API, which is surprisingly permissive by default. This time, we put integrity in the spec from day one and moved the critical logic server‑side.
 
 ## TL;DR
 
 * Rebuilt the voting system in 48 hours
-* Stack: Lovable (Tailwind) + Supabase (Postgres, RLS, Edge Functions) + Postmark (magic link)
+* Stack: [Lovable](https://lovable.dev/invite/d33c6bee-647c-4581-8186-975070e0645f) (Tailwind) + [Supabase](https://supabase.com/) (Postgres, RLS, Edge Functions) + [Postmark](https://postmarkapp.com) (email delivery)
 * Cut “soft fraud” at the source (disposable domains, aliasing, dot‑variants)
 * Locked down API access and enforced rules server‑side
 * Real‑time, trustworthy results with zero post‑processing
@@ -70,6 +70,12 @@ Validation vs. rejection rates, error signals, latency. Enough observability to 
 **An experience that felt simple**
 One‑click login, clear UI, quick feedback. Security shouldn’t feel like paperwork to the user.
 
+{% include post-components/gallery.html
+  columns = 3
+  images = "/img/2025/09/Miss_Tourisme_Main_Screen.jpeg,/img/2025/09/Miss_Tourisme_Detail_View.jpeg,/img/2025/09/Miss_Tourisme_Admin.jpeg,/img/2025/09/Miss_Tourisme_Candidates_Admin.jpeg,/img/2025/09/Miss_Tourisme_User_management.jpeg"
+  full_width = true
+%}
+
 ## Why two days were enough
 
 The constraints were clear, the scope was tight, and the tools did their job. Edge Functions let me encapsulate the sensitive bits fast. Tailwind and a small pattern library made the UI straightforward. Postmark delivered reliably. Supabase gave me RLS, SQL views, and a sane place to aggregate results without inventing a custom backend on deadline.
@@ -85,6 +91,7 @@ Absolutely — for the right thing. Glide is great for prototypes and internal t
 * A/B tests on the auth flow to shave a few seconds off the experience. Probably trying social login. But then, how to guarantee uniqueness?
 
 ## The takeaway
+
 Under tight deadlines, vibe‑coding gave me speed without sacrificing ownership. Here’s why it beat low‑code for this project:
 
 * Control and portability: the code is mine. I can deploy it anywhere, evolve it, and audit every layer (auth, API, data). No dependency on a platform’s roadmap, pricing changes, or opaque limits.
