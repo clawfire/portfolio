@@ -46,10 +46,11 @@ featured_image: /images/social.jpg
 
 	<section class="listing">
 		<div class="wrap">
+      {% assign sorted_projects = site.projects | sort: date %}
+      {% assign limited_projects = sorted_projects | limit: 3 %}
+			{% for project in limited %}
 
-			{% for project in site.projects | limit: 3 | sort: date%}
-
-			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color | default: site.accent_color }}{% endcapture %}{% endif %}
+			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color | default: site.accent_color }}{% endcapture %}{% endif %}
 
 			<article class="project__preview">
 				<h3 class="project__title"><a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
