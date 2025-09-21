@@ -20,12 +20,14 @@ pagination:
   <section class="all-posts">
     <div class="wrap">
       <div class="posts__list grid">
+        {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
         {% for post in paginator.posts %}
-        {% if forloop.first == true %}
+        {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+        {% if posttime > nowunix %}
         <article class="post post-new">
           <div class="grid">
             <a href="{{ post.url | relative_url }}">
-              <div class="post__image{% if paginator.page == 1 %} post__image--new{% endif %}" style="background-image: url({{ post.featured_image | relative_url }})">
+              <div class="post__image post__image--new" style="background-image: url({{ post.featured_image | relative_url }})">
               </div>
             </a>
 
