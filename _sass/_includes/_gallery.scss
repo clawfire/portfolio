@@ -50,11 +50,11 @@
 
   .gallery__item__image {
 	}
-	
+
 	.owl-dots {
 		margin-top: 12px;
 		text-align: center;
-	
+
 		.owl-dot {
 			width: 24px;
 			height: 24px;
@@ -63,7 +63,7 @@
 			cursor: pointer;
 			@include transition(all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1) 0s);
 			outline: none;
-	
+
 			&:after {
 				content: "";
 				display: block;
@@ -73,7 +73,7 @@
 				border-radius: 8px;
         @include transition(all 0.4s cubic-bezier(0.65, 0.05, 0.36, 1) 0s);
 			}
-	
+
 			&.active {
         width: 48px;
 
@@ -93,14 +93,14 @@
 
 .gallery--grid {
   .gallery__wrap {
-    margin-left: -$grid-spacing/2;
-    margin-right: -$grid-spacing/2;
+    margin-left: calc(-1 * $grid-spacing / 2);
+    margin-right: calc(-1 * $grid-spacing / 2);
   }
 
   .gallery__item {
     float: left;
     width: 50%;
-    padding: $grid-spacing/2;
+    padding: calc($grid-spacing / 2);
   }
 
   .gallery__item__link {

@@ -99,11 +99,11 @@
   justify-content: center;
   @include translate(0, -50%);
   cursor: pointer;
-  background-color: transparentize($accent-color, 0.92);
+  background-color: color.adjust($accent-color, $alpha: -0.92);
   border-radius: 8px;
 
   &:active {
-    background-color: transparentize($accent-color, 0.86);
+    background-color: color.adjust($accent-color, $alpha: -0.86);
   }
 
   @include mq(tabletp) {
