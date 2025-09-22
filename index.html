@@ -39,16 +39,13 @@ featured_image: /images/social.jpg
 				{% include component__talk-preview.html %}
 				{% endfor %}
 			</div>
-
-			<a href="{{ '/talks' | relative_url }}" class="action-bottom button--text--accent --right">All Talks</a>
 		</div>
 	</section>
 
 	<section class="listing">
 		<div class="wrap">
-      {% assign sorted_projects = site.projects | sort: date %}
-      {% assign limited_projects = sorted_projects | limit: 3 %}
-			{% for project in limited %}
+      {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+			{% for project in sorted_projects limit: 3 %}
 
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color | default: site.accent_color }}{% endcapture %}{% endif %}
 
@@ -66,7 +63,7 @@ featured_image: /images/social.jpg
 					<p class="project__description --small">
 						{{ project.description }}
 						<a href="{{ project.url | relative_url }}" class="project__link button--text --right"
-							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Project</a>
 					</p>
 				</div>
 			</article>

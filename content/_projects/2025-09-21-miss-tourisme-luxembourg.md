@@ -1,7 +1,7 @@
 ---
 title: Miss Tourisme Luxembourg
 subtitle: Securing a public voting system in 48 hours with real-time, trustworthy results
-date: 2019-06-18
+date: 2025-09-21
 skills:
   - Vibecoding
 techs:
@@ -20,7 +20,7 @@ gallery_images:
   - /img/2025/09/Miss_Tourisme_Candidates_Admin.jpeg
   - /img/2025/09/Miss_Tourisme_User_management.jpeg
 fmContentType: Projet
-lastmod: 2025-09-21T13:28:04.675Z
+lastmod: 2025-09-22T11:11:07.760Z
 ---
 Yesterday was the [Miss Tourisme Luxembourg](https://www.misstourismeluxembourg.lu/) election. Like previous years, I handled the online voting system — but this time I rebuilt it from the ground up. I moved away from a low‑code base ([Glide](https://www.glideapps.com/)) to a custom build on [Lovable](https://lovable.dev/invite/d33c6bee-647c-4581-8186-975070e0645f) + [Supabase](https://supabase.com/) + [Postmark](https://postmarkapp.com), “vibe‑coded” in two days. The goal wasn’t just to ship fast; it was to make the vote trustworthy, observable, and immediately usable on stage without any manual cleanup.
 Why change what “worked”? Because what “works” for a prototype can break under real‑world behavior. Over the years, we’ve had to scrub votes after the fact: disposable emails, “+alias” tricks, and creative ways to poke at Glide’s API, which is surprisingly permissive by default. This time, we put integrity in the spec from day one and moved the critical logic server‑side.

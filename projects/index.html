@@ -1,0 +1,49 @@
+---
+layout: default
+title: Projects
+description: Explore my portfolio of projects and case studies <i class="fad fa-code"></i> <i class="fad fa-laptop-code"></i> <i class="fad fa-project-diagram"></i>
+featured_image: /images/social.jpg
+---
+
+<div class="page-blog">
+  <header class="header--single">
+    <div class="wrap">
+      <h1 class="header__title">{{page.title}}</h1>
+      <p class="header__subtitle subtitle--light">{{page.description}}</p>
+    </div>
+  </header>
+
+  <section class="all-posts">
+    <div class="wrap">
+      <div class="posts__list grid">
+        {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+        {% for project in sorted_projects %}
+        {% if forloop.first == true %}
+        <article class="post post-new">
+          <div class="grid">
+            <a href="{{ project.url | relative_url }}">
+              <div class="post__image post__image--new" style="background-image: url({{ project.featured_image | relative_url }})">
+              </div>
+            </a>
+
+            <div class="post__content-wrap">
+              <div class="post__content">
+                <time class="post__date label--small">{{ project.date | date: "%B %d, %Y" }}</time>
+                <h2 class="post__title h4"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+                {% if project.subtitle %}
+                <p class="post__subtitle">{{ project.subtitle }}</p>
+                {% endif %}
+                <p class="post__description">{{ project.description }}</p>
+                <a href="{{ project.url | relative_url }}" class="post__link button--text--accent --right">View Project</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        {% else %}
+        {% include component__project-card.html %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>

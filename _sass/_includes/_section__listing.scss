@@ -13,6 +13,10 @@
   position: relative;
   width: 100%;
 
+  &:first-child {
+    margin-top: 56px;
+  }
+
   &:not(:last-child) {
     margin-bottom: 56px;
   }
@@ -28,8 +32,12 @@
     }
   }
 
-  .project__images .owl-stage-outer {
-    overflow: visible;
+  .project__images {
+    margin-bottom: 24px;
+
+    .owl-stage-outer {
+      overflow: visible;
+    }
   }
 
   .owl-dots {
