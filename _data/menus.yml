@@ -2,7 +2,7 @@
 header:
 - url:    "/blog/"
   title:  Blog
-- url:    "/"
+- url:    "/projects/"
   title:  Projects
 - url:    "/talks/"
   title:  Talks

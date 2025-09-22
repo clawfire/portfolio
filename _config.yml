@@ -37,7 +37,7 @@ collections:
     permalink:             /:collection/:slug
   talks:
     output:                true
-    permalink:             /talks/:slug
+    permalink:             /:collection/:slug
 
 # Defaults for each collection type
 defaults:
@@ -91,23 +91,15 @@ sass:
 
 # Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-gist
   - jekyll-twitter-plugin
   - jekyll-feed
 
 # Pagination Settings (jekyll-paginate - posts only)
-  paginate: 10
-  paginate_path: "/blog/page-:num/"
-  #category:               'posts'
-  #tag:                    ''
-  #locale:                 ''
-  #trail:
-  # before:               2
-  # after:                2
-  # extension:              html
-  # indexpage:              'index'
+paginate: 10
+paginate_path: "/blog/page/:num/"
 
 # Handling Reading
 include:                   [".htaccess"]
