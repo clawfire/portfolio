@@ -3,10 +3,7 @@ layout: default
 title: Talks, Meetups &amp; Conferences
 description: Here's my talks, futures and pasts <i class="fad fa-keynote"></i> <i class="fad fa-presentation"></i> <i class="fad fa-projector"></i>
 featured_image: /images/social.jpg
-pagination:
-  enabled: true
-  permalink: /:num/
-  collection: talks
+permalink: /talks/
 ---
 
 <div class="page-blog">
@@ -69,18 +66,4 @@ pagination:
     </div>
   </section>
 
-  {% if paginator.total_pages > 1 %}
-
-  <section class="pagination">
-    <div class="wrap">
-      {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="button--text--accent --left pagination__prev">Newer Posts</a>
-      {% endif %}
-      {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="button--text--accent --right pagination__next">Older Posts</a>
-      {% endif %}
-    </div>
-  </section>
-
-  {% endif %}
 </div>

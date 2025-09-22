@@ -91,30 +91,23 @@ sass:
 
 # Plugins
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-twitter-plugin
   - jekyll-feed
 
-# Pagination Settings
-pagination:
-  enabled:                 true
-  debug:                   true
-  #collection:             'post'
-  per_page:                10
-  permalink:               '/:coll    /:num'
-  title:                   ':title - page :num'
-  limit:                   30
-  sort_field:              'date'
-  sort_reverse:            true
+# Pagination Settings (jekyll-paginate - posts only)
+  paginate: 10
+  paginate_path: "/blog/page-:num/"
   #category:               'posts'
   #tag:                    ''
   #locale:                 ''
   #trail:
-  #  before:               2
-  #  after:                2
-  #extension:              html
-  #indexpage:              'index'
+  # before:               2
+  # after:                2
+  # extension:              html
+  # indexpage:              'index'
 
 # Handling Reading
 include:                   [".htaccess"]
