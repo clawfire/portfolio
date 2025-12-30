@@ -16,6 +16,7 @@ fmContentType: Blog Post
 keywords:
   - lowcode
   - no code
+lastmod: 2025-12-30T13:11:19.951Z
 ---
 The NoCode Summit 2024, held at the iconic Station F in Paris, was a landmark event that brought together a diverse community of no code enthusiasts from across the globe. Over two days, the summit became a hub of learning and networking, drawing in more than 1,000 passionate individuals eager to explore the possibilities of no code technology. As a speaker on the concluding panel, I had the unique opportunity to share insights and engage with thought leaders shaping the future of this dynamic field.
 
@@ -37,7 +38,9 @@ The discussions at the summit revolved around several pivotal themes that are sh
 
 ## Panel Participation: NoCode REX
 
-I had the privilege of participating in the "NoCode REX" panel, a highlight of the summit that delved into the real-world applications and experiences of no code technology. The panel brought together experts to discuss the practical implications and success stories of implementing no code solutions across various industries. It was an enriching experience to share insights and learn from fellow panelists about the transformative power of no code. For those who missed it, I highly recommend [checking out the replay of the panel here](https://www.nocode-summit.org/en/content/nocode-rex).
+I had the privilege of participating in the "NoCode REX" panel, a highlight of the summit that delved into the real-world applications and experiences of no code technology. The panel brought together experts to discuss the practical implications and success stories of implementing no code solutions across various industries. It was an enriching experience to share insights and learn from fellow panelists about the transformative power of no code. For those who missed it, I highly recommend [checking out the replay of the panel here](https://youtu.be/pBUlFRy0mUQ).
+
+{% youtube "https://www.youtube.com/watch?v=pBUlFRy0mUQ" %}
 
 ## Insights from the NoCode Market
 

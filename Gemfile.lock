@@ -90,6 +90,8 @@ GEM
     jekyll-twitter-plugin (2.1.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll-youtube (1.0.0)
+      jekyll
     json (2.14.1)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
@@ -169,6 +171,7 @@ DEPENDENCIES
   jekyll-sass-converter (~> 3.1.0)
   jekyll-sitemap
   jekyll-twitter-plugin
+  jekyll-youtube
 
 RUBY VERSION
    ruby 3.3.5p100
