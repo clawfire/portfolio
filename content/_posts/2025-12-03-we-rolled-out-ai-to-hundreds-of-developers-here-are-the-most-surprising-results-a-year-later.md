@@ -4,7 +4,7 @@ title: We Rolled Out AI to Hundreds of Developers. Here Are the Most Surprising 
 description: |
   Discover the real-world impact of a year-long generative AI rollout at Smile. Learn surprising truths about developer adoption, why senior engineers gained more efficiency than juniors, how we navigated productivity plateaus, and the data-driven strategy that achieved massive ROI with lean management.
 date: 2025-12-03T17:17:04.313Z
-featured_image: /2025/12/Gemini_Generated_Image_h76qg4h76qg4h76q.png
+featured_image: img/2025/12/Gemini_Generated_Image_h76qg4h76qg4h76q.png
 published: true
 tags:
   - AI Adoption Strategy
@@ -17,7 +17,7 @@ tags:
   - Software Development Case Study
 categories: []
 fmContentType: Blog Post
-lastmod: 2025-12-04T09:55:52.151Z
+lastmod: 2025-12-30T12:29:39.968Z
 ---
 For the past few years, every leader I’ve spoken with has asked the same question: what is the real, measurable impact of Generative AI on a development team? At Smile, we decided to move past the hype and find the answer ourselves.
 
