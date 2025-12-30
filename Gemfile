@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-twitter-plugin'
   gem 'jekyll-feed'
+  gem "jekyll-youtube"
 end
