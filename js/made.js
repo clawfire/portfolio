@@ -112,7 +112,7 @@
 			else if (thisTarget.indexOf('http') >= 0) {
 
 				// Go to the external link
-				window.open(thisTarget, '_blank');
+				window.open(thisTarget, '_blank', 'noopener,noreferrer');
 
 			}
 

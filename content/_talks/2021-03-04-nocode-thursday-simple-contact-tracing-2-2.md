@@ -30,5 +30,3 @@ Vous l'aurez compris, ici nous mettrons en parallèle une approche purement no-c
 [Ici vous trouverez le "zap" utilisé](https://zapier.com/shared/2ad0e66265f81d765f3600c99850192d27118596) par l'app pour supprimer automatiquement les données au bout de 21 jours. Vous pouvez le copier mais il vous faudra un compte payant (même le plus petit) pour utiliser le multi-step.
 
 [Et le code pour le Google App Script est le suivant](https://gist.github.com/clawfire/dc215283007e258f16d4e20c027540be) (avec en 1er mon petit fichier utilitaire).
-
-{% gist dc215283007e258f16d4e20c027540be %}
