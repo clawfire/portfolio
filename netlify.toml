@@ -1,0 +1,37 @@
+[build]
+  command = "JEKYLL_ENV=production bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.3.6"
+  JEKYLL_ENV = "production"
+
+[context.deploy-preview]
+  command = "JEKYLL_ENV=production bundle exec jekyll build"
+
+[context.branch-deploy]
+  command = "JEKYLL_ENV=production bundle exec jekyll build"
+
+# Local development settings
+[dev]
+  command = "JEKYLL_ENV=development bundle exec jekyll serve --watch --incremental"
+  targetPort = 4000
+  publish = "_site"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache control for images
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

@@ -1,6 +1,6 @@
 <article class="post__card">
   <a href="{{ post.url | relative_url }}" class="post__link">
-    <div class="post__image" style="background-image: url({{ post.featured_image | relative_url }})">
+    <div class="post__image" style="background-image: url({% include helpers/image-cdn.html url=post.featured_image width=600 height=400 fit='cover' position='center' %})">
     </div>
     <time class="post__date label--small">{{ post.date | date: "%B %d, %Y" }}</time>
     <h5 class="post__title subtitle">{{ post.title }}</h5>

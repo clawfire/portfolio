@@ -5,7 +5,7 @@
   <div class="wrap grid">
 
     <div class="about__image">
-      <img src="{{ '/images/profile.jpg' | relative_url }}" alt="">
+      <img src="{% include helpers/image-cdn.html url='/images/profile.jpg' width=800 height=1200 fit='cover' position='center' quality=85 %}" alt="">
 
       {% include component-socials.html %}
     </div>

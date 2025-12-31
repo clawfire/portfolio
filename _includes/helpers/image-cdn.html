@@ -1,0 +1,74 @@
+{% comment %}
+  Netlify Image CDN Helper with Development Fallback
+
+  Usage:
+    {% include helpers/image-cdn.html
+       url="/images/profile.jpg"
+       width=400
+       height=300
+       fit="cover"
+       position="center"
+       quality=75
+       format="webp"
+       dev_fallback=true
+    %}
+
+  Parameters:
+    - url (required): Path to the image (relative or absolute)
+    - width: Width in pixels
+    - height: Height in pixels
+    - fit: "contain" (default), "cover", or "fill"
+    - position: "center" (default), "top", "bottom", "left", "right" (only for fit=cover)
+    - quality: 1-100 (default: 75) for lossy formats
+    - format: "avif", "jpg", "png", "webp", "gif" (optional, auto-negotiates if not set)
+    - dev_fallback: Set to true to use direct image path in development (default: true)
+
+  Returns: Complete Netlify Image CDN URL (production) or direct path (development)
+{% endcomment %}
+
+{%- assign use_cdn = true -%}
+{%- assign dev_fallback = include.dev_fallback | default: true -%}
+
+{%- comment -%} Detect development environment {%- endcomment -%}
+{%- if jekyll.environment == "development" and dev_fallback == true -%}
+  {%- assign use_cdn = false -%}
+{%- endif -%}
+
+{%- if use_cdn -%}
+  {%- assign cdn_url = "/.netlify/images" -%}
+  {%- assign params = "" -%}
+
+  {%- if include.url -%}
+    {%- assign image_path = include.url | relative_url -%}
+    {%- assign params = params | append: "url=" | append: image_path -%}
+  {%- endif -%}
+
+  {%- if include.width -%}
+    {%- assign params = params | append: "&w=" | append: include.width -%}
+  {%- endif -%}
+
+  {%- if include.height -%}
+    {%- assign params = params | append: "&h=" | append: include.height -%}
+  {%- endif -%}
+
+  {%- if include.fit -%}
+    {%- assign params = params | append: "&fit=" | append: include.fit -%}
+  {%- endif -%}
+
+  {%- if include.position -%}
+    {%- assign params = params | append: "&position=" | append: include.position -%}
+  {%- endif -%}
+
+  {%- if include.quality -%}
+    {%- assign params = params | append: "&q=" | append: include.quality -%}
+  {%- endif -%}
+
+  {%- if include.format -%}
+    {%- assign params = params | append: "&fm=" | append: include.format -%}
+  {%- endif -%}
+
+  {{- cdn_url -}}?{{- params -}}
+{%- else -%}
+  {%- comment -%} Development fallback: use direct image path {%- endcomment -%}
+  {{- include.url | relative_url -}}
+{%- endif -%}
