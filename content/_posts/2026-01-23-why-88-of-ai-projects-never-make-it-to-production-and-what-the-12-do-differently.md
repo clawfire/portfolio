@@ -3,7 +3,7 @@ layout: post
 title: Why 88% of AI Projects Never Make It to Production (And What the 12% Do Differently)
 description: Most AI transformations fail before they start. Here's what separates companies that scale AI successfully from those stuck in pilot purgatory—based on real data and hard-won lessons from the field.
 date: 2026-01-23T12:56:22.739Z
-featured_image: img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
+featured_image: /img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
 published: true
 tags:
   - ai
@@ -13,7 +13,7 @@ categories:
   - Innovation
   - Leadership
 fmContentType: Blog Post
-lastmod: 2026-01-23T13:12:58.106Z
+lastmod: 2026-01-23T13:43:27.724Z
 ---
 Let me start with an uncomfortable truth: **88% of AI proof-of-concepts never deploy**. Not because the technology doesn't work—but because organizations treat AI like a magic wand instead of a strategic transformation.
 

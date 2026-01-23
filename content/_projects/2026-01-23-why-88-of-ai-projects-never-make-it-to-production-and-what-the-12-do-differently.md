@@ -16,13 +16,13 @@ industry:
   - Consulting
   - Enterprise
 description: Co-authored a 30-page strategic whitepaper for Smile that uses irony and anti-patterns to teach AI transformation best practices. Each chapter shows how to guarantee failure—then reveals the survival strategy. Created through human-AI collaboration, demonstrating the exact augmentation approach we advocate.
-featured_image: img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
+featured_image: /img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
 accent_color: "#D63731"
 gallery_images:
-  - img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
-  - img/2026/01/Capture d’écran 2026-01-23 à 14.10.14.png
+  - /img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
+  - /img/2026/01/Capture d’écran 2026-01-23 à 14.10.14.png
 fmContentType: Projet
-lastmod: 2026-01-23T13:14:11.663Z
+lastmod: 2026-01-23T13:43:36.644Z
 keywords:
   - whitepaper
   - ai transformation
