@@ -16,13 +16,13 @@ industry:
   - Consulting
   - Enterprise
 description: Co-authored a 30-page strategic whitepaper for Smile that uses irony and anti-patterns to teach AI transformation best practices. Each chapter shows how to guarantee failure—then reveals the survival strategy. Created through human-AI collaboration, demonstrating the exact augmentation approach we advocate.
-featured_image: /img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
+featured_image: /img/2026/01/livre-blanc-updside-ai-10-conseils-pour-survivre-a-votre-transfo-ia.png
 accent_color: "#D63731"
 gallery_images:
-  - /img/2026/01/Capture d’écran 2026-01-23 à 14.11.01.png
-  - /img/2026/01/Capture d’écran 2026-01-23 à 14.10.14.png
+  - /img/2026/01/livre-blanc-updside-ai-10-conseils-pour-survivre-a-votre-transfo-ia.png
+  - /img/2026/01/livre-blanc-updside-ai-10-conseils-pour-survivre-a-votre-transfo-ia-2.png
 fmContentType: Projet
-lastmod: 2026-01-23T13:43:36.644Z
+lastmod: 2026-01-23T14:40:05.395Z
 keywords:
   - whitepaper
   - ai transformation
