@@ -211,16 +211,24 @@
       margin: 30px auto;
     }
 
-    .gallery {
+    figure:has(.gallery) {
       margin: 32px auto;
+      a {
+        text-decoration: none;
+        border-bottom: none;
+      }
     }
 
-    .gallery.full-width {
+    figure:has(.gallery.full-width) {
       width: calc(100vw - 60px);
       max-width: 1140px;
 
       img {
         max-width: 1140px;
+      }
+      a {
+        text-decoration: none;
+        border-bottom: none;
       }
     }
 
@@ -300,7 +308,7 @@
         margin: 40px 0 48px;
       }
 
-      .gallery,
+      figure:has(.gallery),
       .image-wrap,
       .video-wrap,
       .highlighter-rouge {

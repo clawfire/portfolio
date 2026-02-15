@@ -1,3 +1,14 @@
+{% comment %}
+  Usage:
+  {% include post-components/gallery.html
+    images = "/img/2026/02/ABE818EA-C7F7-4C8B-9729-E53191B203CF-Nd6B7hqr_-transformed.jpeg,/img/2026/02/E7828F31-ACA6-420B-85C5-4C6EA071250E-transformed.jpeg,/img/2026/02/10k.png"
+    caption = "From left to right: The first Diego$ (with Fabrice's face), the DeutschMarks (with Fabrice's face still), and the 10k€ bill/DeutschMarks we used for voting since people where a bit... hesitant to use the DeutschMarks."
+    columns = 3
+    full_width = true
+  %}
+{% endcomment %}
+
+
 {%- capture columns -%}
 	{%- if include.columns -%}
 		{{ include.columns }}
@@ -7,9 +18,13 @@
 {%- endcapture -%}
 
 {% assign images = include.images | split: "," %}
-
-<div class="gallery {% if include.full_width == true %}full-width{% endif %}" data-columns="{{ columns }}">
-	{%- for image in images -%}
-		<img src="{{ image }}">
-	{%- endfor -%}
-</div>
+<figure>
+  <div class="gallery {% if include.full_width == true %}full-width{% endif %}" data-columns="{{ columns }}">
+    {%- for image in images -%}
+    <img src="{{ image }}">
+    {%- endfor -%}
+  </div>
+  {%- if include.caption -%}
+  <figcaption class="gallery-title">{{ include.caption }}</figcaption>
+  {%- endif -%}
+</figure>
